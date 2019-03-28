@@ -106,9 +106,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "SangWoo Kang (James)"
+  name             : "SangWoo Kang"
   avatar           : # path of avatar image, e.g. ""
-  bio              :  " This is SangWoo(James)'s blog "
+  bio              :  " Just call me 'James' "
   location         : "Incheon, Korea"
   email            : "kangsw9395@gmail.com"
   links:
