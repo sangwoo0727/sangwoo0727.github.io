@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DAILY"
+title: "First Post"
 categories: Daily
 tags: [Github,Daily]
 author: sangwoo(James)
