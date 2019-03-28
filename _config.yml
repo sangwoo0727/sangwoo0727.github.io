@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko" 
-title                    : "SangWoo blog"
+title                    : "SangWoo Blog"
 title_separator          : "-"
 name                     : "sangwoo0727"
 description              : "This is SangWoo(James)'s blog"
@@ -106,9 +106,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "sangwoo0727(James)"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : 
+  name             : "SangWoo Kang (James)"
+  avatar           : # path of avatar image, e.g. "/assets/img/profile/profile.jpg"
+  bio              :  " Just call me 'James' "
   location         : "Incheon, Korea"
   email            : "kangsw9395@gmail.com"
   links:
