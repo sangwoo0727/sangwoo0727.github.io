@@ -5,7 +5,6 @@ categories:
 tags:
   - Daily
   - Github
-<<<<<<< HEAD
 ---
 ### Github.io를 선택하다.  
 
