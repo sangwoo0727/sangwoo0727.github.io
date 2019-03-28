@@ -5,6 +5,7 @@ categories:
 tags:
   - Daily
   - Github
+<<<<<<< HEAD
 ---
 ### Github.io를 선택하다.  
 
@@ -17,3 +18,13 @@ tags:
 아무튼 깃허브 페이지를 만들면서 얻게된 것도 많은 것 같고, 힘들게 만든거니깐 꾸준히 한번 올려봐야지.
 
 [^posts]: Footnote test.
+=======
+author:
+  - sangwoo(James)
+---
+
+### 첫 블로그 포스팅
+어렵다 어렵다 
+
+[^posts]: Footnote test.
+>>>>>>> eaf719b9aa599c9d0b00582948466e329d09b29f
