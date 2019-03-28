@@ -1,12 +1,12 @@
 ---
-layout: post
-title: "First Post"
-categories: Daily
-tags: [Github,Daily]
-author: sangwoo(James)
+title: "My First Post"
+categories: 
+  - Daily
+tags:
+  - Daily
+  - Github
 ---
 
-### 나의 첫 블로그 포스팅
-어렵다 어렵다 어렵다
-매우 어렵다
-만들기 굉장히 어려웠다.
+### ?�의 �?블로�??�스???�렵???�렵???�렵??매우 ?�렵??만들�?굉장???�려?�다.
+
+[^posts]: Footnote test.
