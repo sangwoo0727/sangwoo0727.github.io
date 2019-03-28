@@ -5,8 +5,6 @@ categories: Daily
 tags: [Github,Daily]
 author: sangwoo(James)
 ---
-* content
-{:toc}
 
 ### 나의 첫 블로그 포스팅
 어렵다 어렵다 어렵다
