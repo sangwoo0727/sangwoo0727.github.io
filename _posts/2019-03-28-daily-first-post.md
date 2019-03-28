@@ -7,6 +7,8 @@ categories:
 tags:
   - Daily
   - Github
+author:
+  - sangwoo(James)
 ---
 
 ### 첫 블로그 포스팅
