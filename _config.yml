@@ -112,7 +112,7 @@ author:
   location         : "Incheon, Korea"
   email            : "kangsw9395@gmail.com"
   links:
-    - label: "kangsw9395@gmail.com"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:kangsw9395@gmail.com
     - label: "Website"
