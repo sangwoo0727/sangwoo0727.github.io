@@ -72,9 +72,12 @@
     border-bottom: 1px solid $border-color;
   }
 
-  ul li {
+  p,
+  li,
+  dl {
     font-size: 0.8em;
   }
+
 
   /* paragraph indents */
   p {
