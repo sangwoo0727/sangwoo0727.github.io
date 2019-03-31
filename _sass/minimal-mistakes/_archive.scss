@@ -131,11 +131,11 @@
     /* extend grid elements to the right */
 
     @include breakpoint($large) {
-      margin-right: 0 * $right-sidebar-width-narrow;
+      margin-right: -1 * $right-sidebar-width-narrow;
     }
 
     @include breakpoint($x-large) {
-      margin-right: 0 * $right-sidebar-width;
+      margin-right: -1 * $right-sidebar-width;
     }
   }
 }
@@ -161,7 +161,7 @@
   @include breakpoint($medium) {
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
-    width: span(5 of 12);
+    width: span(3 of 12);
 
     &:nth-child(2n + 1) {
       clear: none;
@@ -263,8 +263,8 @@
   }
 
   .archive__item-body {
-    padding-left: gutter(0 of 12);
-    padding-right: gutter(0 of 12);
+    padding-left: gutter(1 of 12);
+    padding-right: gutter(1 of 12);
   }
 
   a.btn::before {
@@ -281,7 +281,7 @@
     float: left;
     margin-left: 0;
     margin-right: 0;
-    width: 70%;
+    width: 100%;
     clear: both;
     font-size: 1.125em;
 
@@ -305,14 +305,14 @@
     @include breakpoint($small) {
       .archive__item-teaser {
         float: left;
-        width: span(4 of 12);
+        width: span(5 of 12);
       }
 
       .archive__item-body {
         float: right;
         padding-left: gutter(0.5 of 12);
         padding-right: gutter(1 of 12);
-        width: span(8 of 12);
+        width: span(7 of 12);
       }
     }
   }
@@ -322,7 +322,7 @@
     float: left;
     margin-left: 0;
     margin-right: 0;
-    width: 70%;
+    width: 100%;
     clear: both;
     font-size: 1.125em;
 
@@ -365,7 +365,7 @@
     float: left;
     margin-left: 0;
     margin-right: 0;
-    width: 120%;
+    width: 100%;
     clear: both;
     font-size: 1.125em;
 
