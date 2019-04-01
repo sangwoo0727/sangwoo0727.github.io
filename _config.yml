@@ -108,11 +108,7 @@ analytics:
 author:
   name             : "Kang Sang Woo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Just call me James
-                       아직 만드는 중 . . .
-                       jekyll 테마 적용 - minimall-mistakes
-                       댓글 기능 추가 완료
-                       카테고리 바, 화면사이즈 조정 필요"
+  bio              : "Just call me James"
   location         : "Incheon, Korea"
   email            : "kangsw9395@gmail.com"
   links:
