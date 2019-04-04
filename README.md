@@ -1,3 +1,3 @@
-# sangwoo0727.github.io
+## sangwoo0727.github.io
 
 저의 깃헙페이지 블로그입니다.
