@@ -298,7 +298,7 @@ defaults:
    # _posts
      - scope:
          path: ""
-         type: pages
+         type: sidebar
         values:
          sidebar:
             title: "Category"
