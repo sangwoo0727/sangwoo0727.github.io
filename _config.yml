@@ -259,8 +259,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-sidebar:
-  nav: "sidebar"
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -289,19 +287,12 @@ defaults:
       path: ""
       type: posts
     values:
+      sidebar:
+      title: "Category"
+      nav: sidebar
       layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
-      related: true
-
-   # _pages
-     - scope:
-         path: ""
-         type: sidebar
-        values:
-         sidebar:
-            title: "Category"
-            nav: sidebar
-         
+      related: true         
