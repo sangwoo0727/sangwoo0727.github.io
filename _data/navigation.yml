@@ -6,7 +6,7 @@ main:
   - title: "Category"
     url: /categories/
 
-sidebar:
+docs:
   - title: "Category"
     children:
       - title: "Algorithm"

@@ -295,7 +295,7 @@ defaults:
       related: true   
   - scope:
       path: ""
-      type: sidebar
+      type: docs
     values:
       sidebar:
-        nav: "sidebar"
+        nav: "docs"
