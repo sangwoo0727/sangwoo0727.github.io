@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "SangWoo blog"
 title_separator          : "-"
 name                     : "Kang Sang Woo"
-description              : "Still making.."
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Kang Sang Woo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "아직 만드는 중입니다.."
+  bio              : "It is incomplete.."
   location         : "Incheon, Korea"
   email            : "kangsw9395@gmail.com"
   links:
