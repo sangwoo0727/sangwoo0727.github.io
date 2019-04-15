@@ -304,4 +304,5 @@ defaults:
       share: false
       commets: true
       sidebar:
+        title: "Contents"
         nav: "docs"
