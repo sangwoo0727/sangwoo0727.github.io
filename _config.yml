@@ -288,7 +288,7 @@ defaults:
       type: posts
     values:
       sidebar:
-        title: "Category"
+        title: "Contents"
         nav: sidebar
       layout: single
       author_profile: true
