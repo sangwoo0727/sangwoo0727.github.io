@@ -309,13 +309,15 @@ defaults:
         path: ""
         type: docs
       values:
+        sidebar:
+          title: "Contents"
+          nav: "docs"
         layout: single
         read_time: false
         author_profile: false
         share: false
         comments: false
-        sidebar:
-          nav: "docs"
+        
 
 
       
