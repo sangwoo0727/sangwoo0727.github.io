@@ -303,21 +303,7 @@ defaults:
       sidebar:
         nav: "docs"
       layouts: single
-      author_profile: true
-  # _docs
-   - scope:
-       path: ""
-       type: docs
-     values:
-       sidebar:
-         title: "Contents"
-         nav: "docs"
-       layout: single
-       read_time: false
-       author_profile: false
-       share: false
-       comments: false
-        
+      author_profile: true        
 
 
       
