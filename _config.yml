@@ -81,13 +81,6 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
-#sidebar
-sidebar:
-  - title: "Contents"
-     image:
-     image_alt:
-     text:
-
 # Social Sharing
 twitter:
   username               :
