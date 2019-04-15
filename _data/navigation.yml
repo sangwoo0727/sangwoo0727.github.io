@@ -14,3 +14,6 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
+sidebar:
+   - title: "category"
+     url: /categories/
