@@ -288,8 +288,8 @@ defaults:
       type: posts
     values:
       sidebar:
-      title: "Category"
-      nav: sidebar
+        title: "Category"
+        nav: sidebar
       layout: single
       author_profile: true
       read_time: true
