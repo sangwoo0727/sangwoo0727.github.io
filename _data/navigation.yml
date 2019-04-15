@@ -6,6 +6,18 @@ main:
   - title: "Category"
     url: /categories/
 
+sidebar:
+  - title: "Category"
+    children:
+      - title: "Algorithm"
+        url: /categories/
+      - title: "DataStructure"
+        url: /categories/
+      - title: "Daily"
+        url: /categories/
+      - title: "Github"
+        url: /categories/
+  
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
