@@ -293,3 +293,9 @@ defaults:
       comments: true
       share: true
       related: true   
+  - scope:
+      path: ""
+      type: sidebar
+    values:
+      sidebar:
+        nav: "sidebar"
