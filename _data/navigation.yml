@@ -14,11 +14,3 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
-   - title: "Category"
-      children:
-         - title: "Algorithm"
-            url: /categories/
-         - title: "DataStructure"
-            url: /categories/
-      
