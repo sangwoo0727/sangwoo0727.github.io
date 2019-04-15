@@ -292,7 +292,8 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true   
+      related: true 
+  # _docs  
   - scope:
       path: ""
       type: docs
