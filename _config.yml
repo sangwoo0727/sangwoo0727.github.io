@@ -303,6 +303,9 @@ defaults:
       path: "_pages"
       type: pages
     values:
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "bars"
       sidebar:
         nav: "docs"
       layouts: single
