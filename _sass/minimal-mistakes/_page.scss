@@ -23,19 +23,12 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> cc69847b11722d2fc04bfe723df05b6e45ef08f0
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-<<<<<<< HEAD
-=======
     
->>>>>>> cc69847b11722d2fc04bfe723df05b6e45ef08f0
   }
 
   .page__inner-wrap {
