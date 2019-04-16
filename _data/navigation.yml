@@ -12,7 +12,7 @@ docs:
       - title: "Algorithm"
         url: /categories/Algorithm
       - title: "DataStructure"
-        url: /categories/#DataStructure
+        url: /categories/DataStructure
       - title: "Daily"
         url: /categories/#Daily
       - title: "Github"
