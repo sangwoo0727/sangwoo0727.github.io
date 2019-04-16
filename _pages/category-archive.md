@@ -3,6 +3,7 @@ title: "Posts by Category"
 layout: archive
 permalink: /categories/
 author_profile: true
+sidebar_main: true
 ---
 {% include group-by-array collection=site.posts field="categories" %}
 {% for category in group_names %}
