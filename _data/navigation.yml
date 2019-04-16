@@ -10,7 +10,7 @@ docs:
   - title: "Category"
     children:
       - title: "Algorithm"
-        url: /categories/#Algorithm
+        url: /categories/Algorithm
       - title: "DataStructure"
         url: /categories/#DataStructure
       - title: "Daily"
