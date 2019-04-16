@@ -6,17 +6,6 @@ main:
   - title: "Category"
     url: /categories/
 
-docs:
-  - title: "Category"
-    children:
-      - title: "Algorithm"
-        url: /categories/#Algorithm
-      - title: "DataStructure"
-        url: /categories/#DataStructure
-      - title: "Daily"
-        url: /categories/#Daily
-      - title: "Github"
-        url: /categories/#Github
   
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

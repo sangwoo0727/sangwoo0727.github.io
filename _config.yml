@@ -287,8 +287,6 @@ defaults:
       path: ""
       type: posts
     values:
-      sidebar:
-        nav: "docs"
       layout: single
       author_profile: true
       read_time: true
@@ -300,8 +298,6 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      sidebar:
-        nav: "docs"
       layouts: single
       author_profile: true        
 
