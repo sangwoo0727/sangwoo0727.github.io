@@ -10,13 +10,13 @@ docs:
   - title: "Category"
     children:
       - title: "Algorithm"
-        url: /categories/
+        url: /categories/#Algorithm
       - title: "DataStructure"
-        url: /categories/
+        url: /categories/#DataStructure
       - title: "Daily"
-        url: /categories/
+        url: /categories/#Daily
       - title: "Github"
-        url: /categories/
+        url: /categories/#Github
   
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
