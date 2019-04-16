@@ -295,17 +295,11 @@ defaults:
       comments: true
       share: true
       related: true 
-      toc: true
-      toc_label: "Contents"
-      toc_icon: "bars"
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      toc: true
-      toc_label: "Contents"
-      toc_icon: "bars"
       sidebar:
         nav: "docs"
       layouts: single
