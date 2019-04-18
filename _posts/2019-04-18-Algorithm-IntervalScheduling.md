@@ -28,7 +28,7 @@ comments:
 
 #### 1. __Shortest Interval__ (가장 구간이 짧은 영화들을 우선적으로 선택)
 
-* -> 최적의 해가 보장되는 알고리즘이 없을 경우 선택한다.__(휴리스틱)__
+* 최적의 해가 보장되는 알고리즘이 없을 경우 선택한다 __(휴리스틱)__.
 
 ![](/assets/img/Algorithm/Interval1.png)
 
@@ -38,7 +38,7 @@ comments:
 
 #### 2. __Eariest Left Endpoint__ (영화의 시작점이 가장 왼쪽에 있는 영화를 우선적으로 선택)
 
-* 역시 최적의 해가 보장되는 알고리즘이 없을 경우 선택한다.__(휴리스틱)__
+* 역시 최적의 해가 보장되는 알고리즘이 없을 경우 선택한다 __(휴리스틱)__.
 
 ![](/assets/img/Algorithm/Interval2.png)
 
@@ -48,7 +48,7 @@ comments:
 
 #### 3. __Eariest Right Endpoint__ (영화가 끝나는 점이 가장 왼쪽에 있는 영화를 우선적으로 선택)
 
-* -> 최적 보장 __(알고리즘)__ .
+* 최적 보장 __(알고리즘)__ .
 
 ![](/assets/img/Algorithm/Interval3.png)
 
