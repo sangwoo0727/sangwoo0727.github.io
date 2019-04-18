@@ -1,5 +1,5 @@
 ---
-title: "[알고리즘설계] Interval Graph 1 (Scheduling 부터)"
+title: "[알고리즘설계] Interval Graph - 1 (Scheduling)"
 categories:
   - Algorithm
 tags:
