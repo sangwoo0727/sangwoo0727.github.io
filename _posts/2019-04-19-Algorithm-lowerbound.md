@@ -3,8 +3,9 @@ title: "[알고리즘설계] 정렬의 하계"
 categories:
   - Algorithm
 tags:
-  - Interval Graph
+  - lowerbound
   - Big-O notation
+  - sorting
   - Algorithm
 comments:
   - true
