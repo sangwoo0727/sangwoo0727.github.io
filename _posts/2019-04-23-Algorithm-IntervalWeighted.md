@@ -19,7 +19,7 @@ comments:
 
 * BST는 부분적으로 정렬을 해놓은 모양이라 최악의 경우 O(n) 시간에 정렬을 할 수 있다. BST의 부분적 정렬은 정렬에 상당히 가까운 느슨한 정렬 상태이다.
 
-![](/assets/img/Algorithm/Weighted1.png)
+![](/assets/img/Algorithm/weighted1.png)
 
 ### Balanced Binary Search Tree 간략한 설명
 
@@ -38,7 +38,7 @@ comments:
 1. 경로 개념과 독립집합 개념이 맞아 떨어진다.
 1. 정점에 있는 가중치의 합은 경로의 길이가 된다. => '경로가 가장 긴 것을 찾아라' => Longest Path Problem 문제 (최장 경로 문제).
 
-![](/assets/img/Algorithm/Weighted2.png)
+![](/assets/img/Algorithm/weighted2.png)
 
 ### Longest Path Problem
 
@@ -52,9 +52,9 @@ comments:
 * 비순환 유향 그래프인 DAG은 위상 정렬을 통해 정렬을 한다.
 * 위상 정렬(조건은 비순환 유향 그래프여야 한다.) -> 방향 그래프의 정점들을 간선의 방향을 거스르지 않게 정렬을 하는 것.
 
-![](/assets/img/Algorithm/Weighted3.png)
+![](/assets/img/Algorithm/weighted3.png)
 
-![](/assets/img/Algorithm/Weighted4.png)
+![](/assets/img/Algorithm/weighted4.png)
 
 ### 에지에 가중치가 있는 그래프 - 동적계획법으로 풀기
 
@@ -76,7 +76,7 @@ comments:
 * 아래와 같은 그림일 때, 왼쪽 점을 기준으로 먼저 보게된다. 어떤 구간의 왼쪽 점에 도착하면, 이전까지의 최대 값을 힙에서 꺼내고(힙이 비어있다면 0) 그 구간의 가중치를 더해서 값을 저장시켜 둔다.
 * 어떤 구간의 오른쪽 점에 도착하면 그 이후부터는 그 구간역시 고려되어야 하는 값이 되므로, 힙에 저장시켜둔 값을 넣는다.
 
-![](/assets/img/Algorithm/Weighted5.png)
+![](/assets/img/Algorithm/weighted5.png)
 
 1. 맨 처음 첫번째 구간을 보게되면, 가중치 8을 저장시켜둔다.
 1. 2n개의 좌표들이 정렬되어있으므로 그 다음 보게되는 좌표는 두번째 구간이 된다. 그 구간을 볼때 역시 힙에는 아무것도 들어있지 않으므로, 가중치 5를 저장해 둔다.
