@@ -14,6 +14,9 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+
+11
+
 # Site Settings
 locale                   : "ko-KR"
 title                    : "SangWoo blog"
