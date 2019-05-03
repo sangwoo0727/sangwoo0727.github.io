@@ -9,7 +9,7 @@ tags:
 comments:
   - true
 ---
-##[안드로이드 스튜디오] 1. 기초
+## [안드로이드 스튜디오] 1. 기초
 
 ### 프로젝트 생성 후 기본 내용
 * 안드로이드 스튜디오는 화면을 만드는데 그 화면을 액티비티라고 부르며, 화면 안에 들어갈 버튼, 이미지, 체크박스 등을 어딘가에 기록해서 이 화면과 매칭시켜야 하는데, 그 기록은 레이아웃에 한다.
@@ -54,7 +54,7 @@ comments:
 
 * 위의 경우에는 화면에 1과 2라는 텍스트가 가로로 나열되서 출력된다.
 
-![](/assets/img/AndoridStudio/0504_1.png)
+![](/assets/img/AndroidStudio/0504_1.png)
 
 * 위의 코드에서 orientation 부분을 vertical 로 바꾸면, 12출력이 위아래로 배치된다.
 
@@ -97,7 +97,7 @@ comments:
 </LinearLayout>
 ```
 
-![](/assets/img/AndoridStudio/0504_3.png)
+![](/assets/img/AndroidStudio/0504_3.png)
 
 ### 레이아웃 - RelativeLayout
 
@@ -153,7 +153,7 @@ comments:
 
 * centerVertical 명령어를 통해 중간에 위치하게 만들어준다.
 
-![](/assets/img/AndoridStudio/0504_2.png)
+![](/assets/img/AndroidStudio/0504_2.png)
 
 * 같은 방식으로 2번 텍스트의 위, 아래에 1번 3번 텍스트뷰를 두고싶으면, above, below 명령어를 사용하여 2번을 기준으로 배치하면 된다.
 
