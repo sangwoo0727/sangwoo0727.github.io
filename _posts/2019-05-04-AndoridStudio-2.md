@@ -1,5 +1,5 @@
 ---
-title: "[안드로이드 스튜디오] 2.로그인 레이아웃 만들기"
+title: "[안드로이드 스튜디오] 2.로그인 화면 디자인하기"
 categories:
   - AndoridStudio
 tags:
