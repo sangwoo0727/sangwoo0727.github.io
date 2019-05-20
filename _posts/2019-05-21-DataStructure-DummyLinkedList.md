@@ -150,4 +150,4 @@ int main() {
 }
 ```
 
-![](/assets/img/Algorithm/0521.png)
+![](/assets/img/DataStructure/0521.png)
