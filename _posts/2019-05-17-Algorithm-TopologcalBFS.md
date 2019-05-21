@@ -1,5 +1,5 @@
 ---
-title: "BFS를 이용한 위상정렬"
+title: "[알고리즘설계]BFS를 이용한 위상정렬"
 categories:
   - Algorithm
 tags:
@@ -10,7 +10,7 @@ comments:
   - true
 ---
 
-## BFS를 이용한 위상정렬
+## [알고리즘설계] BFS를 이용한 위상정렬
 
 ### 코드 리뷰
 
