@@ -64,7 +64,6 @@ int main() {
 		}
 		dfs(0, 0, 1);
 		cout << "#" << t << " " << MAX << "\n";
-		memset(checkalp, 0, sizeof(checkalp));
 		MAX = 0;
 	}
 	return 0;
