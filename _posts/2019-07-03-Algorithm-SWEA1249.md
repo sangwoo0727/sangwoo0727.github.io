@@ -22,7 +22,7 @@ comments:
 * result배열은 처음에 -1로 전부 초기화 한다.(방문하지 않은 상태)
 * 내가 현재 머무는 곳의 좌표를 xnow,ynow라 하고, 바라보고 있는 좌표를 xnext,ynext라고 할 때, result[xnext][ynext]== -1인 경우는 아직 바라보는 좌표를 한번도 방문하지 않은 것이므로 방문한다. 또한 result[xnext][ynext]에 있는 값보다, result[xnow][ynow]+board[xnext][ynext]값이 작은 경우는 result[xnext][ynext]값을 result[xnow][ynow]+board[xnext][ynext]로 갱신한다.
 * 이런식으로 BFS를 탐색하면서 result 배열을 채우고 난후 result[N-1][N-1]을 출력하면 된다.
-* result배열을 처음에 0으로 초기화할 경우, 방문안한 곳과 방문을 하였는데 합이 0인 곳을 구분하지 못하여 시간초과가 나는 것 같다.
+* result배열을 처음에 -1이 아닌, 0으로 초기화 할 경우에, 방문을 안한 곳과 방문을 하였는데 최소합이 0인 곳을 구분하지 못하여 계속해서 방문을 하게 된다. 그렇지만, 최소합이 0인 경우엔 더이상 최소값으로 갱신될 수가 없기 때문에, 방문을 안한 경우는 -1로 초기화하여 구분해준다.
 
 ```cpp
 #include <iostream>
