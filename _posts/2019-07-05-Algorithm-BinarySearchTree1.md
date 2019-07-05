@@ -87,4 +87,4 @@ return x
 * 높이가 h인 트리에 대한 TREE-SUCCESSOR의 수행 시간은 O(h)이다. 트리의 단순 경로 하나를 따라 올라가거나 내려가기 때문.
 
 ---
-## 출처 : Introduction to Algorithms 번역본 (Thomas H.Cormen등 지음, 문병로 등 옮김, 한빛아카데미) 
+### 출처 : Introduction to Algorithms 번역본 (Thomas H.Cormen등 지음, 문병로 등 옮김, 한빛아카데미) 
