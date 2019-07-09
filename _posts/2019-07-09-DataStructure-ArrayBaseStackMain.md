@@ -1,5 +1,5 @@
 ---
-title: "[자료구조]더미노드를 활용한 정렬기능이 추가된 연결리스트"
+title: "[자료구조] 배열 기반 스택의 구현"
 categories:
   - DataStructure
 tags:
