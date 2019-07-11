@@ -34,12 +34,10 @@ typedef struct Node {
 	int num;
 	char data;
 }node;
-
 typedef struct{
 	node * head;
 	node * cur;
 }tree;
-
 int N;
 
 void Inorder(node * bt) {
