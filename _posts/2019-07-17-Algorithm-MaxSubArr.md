@@ -72,11 +72,13 @@ Find-Max-Crossing-SubArray(A, low, mid , high)
             max-right = j
     return (max-left, max-right, left-sum + right-sum)
 ```
+
 * 위의 코드는 3번의 경우에 대한 의사 코드이다. 중간값을 지나가는 부분배열의 경우, mid값에서 왼쪽으로 가는 배열중 가장 큰 배열값과, mid+1에서 오른쪽으로 가는 배열 중 가장 큰 배열값의 합이 중간값을 지나는 최대 부분 배열이 된다.
 
 * 위의 코드는 부분 배열 A[low..high]의 원소가 n개를 가지고 있다면, 호출에 걸리는 시간은 Θ(n)이 된다. 첫번째 for 루프에서 mid-low+1 번의 반복과 두 번째 for 루프에서 high-mid 번의 반복이 일어나므로 총 반복횟수가 n이 된다.
 
 * 위의 의사코드를 이용하여 최대부분배열 전체의 의사코드를 작성하면 다음과 같다.
+  
 ```
 Find-Max-SubArray(A, low, high)
     if high==low
