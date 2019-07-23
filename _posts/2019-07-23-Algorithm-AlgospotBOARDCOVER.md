@@ -98,4 +98,4 @@ int main() {
 }
 ```
 
-![](/assets/img/Algorithm/190723.png)
+![](/assets/img/Algorithm/20190723.png)
