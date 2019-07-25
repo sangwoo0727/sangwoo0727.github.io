@@ -11,11 +11,9 @@ comments:
 
 ## [AWS] 클라우드 용어
 
-### 1. AWS 클라우드 용어
-
 * AWS는 전세계를 대상으로 클라우드 서비스를 제공하기 위해 전세계 주요 지역에 IDC(Internet Data Center)를 자체적으로 구축하여 운영하고 있다.
-
 * 이러한 클라우드 서비스를 위한 인프라 환경을 크게 리전(Region), 가용영역(Availability Zone), 엣지 로케이션(Edge Location)으로 구분할 수 있다.
+
 
 ### 2. 리전(Region)
 
