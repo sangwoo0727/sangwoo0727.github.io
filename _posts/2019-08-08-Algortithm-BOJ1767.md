@@ -28,10 +28,11 @@ comments:
 * 문제 푸는데 걸린시간 1시간 20분.
 
 ```cpp
+
 #include <iostream>
 #include <algorithm>
 #include <cstring>
-using namespace std;
+	using namespace std;
 
 typedef struct {
 	int line_leng;
@@ -43,23 +44,18 @@ typedef struct {
 	int m;
 }Core;
 
-Core core[13];
-Result ans;
 int board[13][13];
 int check[13][13];
 int dc[4] = { 0,0,-1,1 };
 int dr[4] = { -1,1,0,0 };
 int pos;
+Core core[13];
+Result ans;
 int N;
 
 void dfs(int idx, int ccnt, int leng) {
 	if (idx == pos) {
-		if (ans.core_cnt == 0 && ans.line_leng == 0) {
-			ans.core_cnt = ccnt;
-			ans.line_leng = leng;
-			return;
-		}
-		else if (ans.core_cnt > ccnt) {
+		if (ans.core_cnt > ccnt) {
 			return;
 		}
 		else if (ans.core_cnt == ccnt) {
@@ -75,6 +71,7 @@ void dfs(int idx, int ccnt, int leng) {
 	else {
 		int n = core[idx].n;
 		int m = core[idx].m;
+		int tmp2 = 0;
 		for (int k = 0; k < 4; k++) {
 			int tmp = 0;
 			for (int i = 1; i < N; i++) {
@@ -86,6 +83,7 @@ void dfs(int idx, int ccnt, int leng) {
 					break;
 				}
 				else if (i > 1 && (check[nnext][mnext] == 1 || board[nnext][mnext] == 1)) {
+					tmp2++;
 					break;
 				}
 				else {
@@ -104,6 +102,7 @@ void dfs(int idx, int ccnt, int leng) {
 				int mnext = m + i * dr[k];
 				check[nnext][mnext] = 0;
 			}
+			if(tmp2==4) dfs(idx + 1, ccnt, leng);
 		}
 	}
 	return;
@@ -141,6 +140,7 @@ int main() {
 	}
 	return 0;
 }
+
 ```
 
 ![](/assets/img/Algorithm/08082.png)
