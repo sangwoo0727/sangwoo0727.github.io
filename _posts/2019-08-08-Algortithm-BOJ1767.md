@@ -12,7 +12,7 @@ comments:
 [문제 링크 - 로그인이 필요합니다.](https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)
 
 ### 문제 설명
-![](/assets/img/Algorithm/08001.png)
+![](/assets/img/Algorithm/08081.png)
 * 멕시노스 판에 코어들이 주어진다. 코어가 있는 배열 값은 1, 없는 배열 값은 0.
 * 멕시노스 판 가장자리는 전원이 흐르는 곳이다.
 * 코어들을 가장자리까지 연결선을 통해 연결할 때, 연결선들끼리는 위의 그림과 같이 교차할 수 없다.
