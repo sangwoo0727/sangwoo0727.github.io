@@ -17,17 +17,17 @@ comments:
 * AsyncTask를 사용하면 백그라운드에서 원격의 이미지 파일을 다운받는 등의 시간소모를 메인 스레드에 영향을 주지 않으면서 처리 가능.
 
 ### AsyncTask 관련 메소드
-* execute() : 생성한 AsyncTask 상속한 객체를 실행시켜서 이 객체는 이때부터 백그라운드 작업을 수행하기 시작. 필요한 경우에 그 결과를 메인 스레드에서 실행.
-* cancel() : execute()와 반대로 작업을 취소할 수 있다.
-* onPreExecute() : background 작업을 알리는 즉 시작되지마자 실행될 코드. progress.dialog등 다양한 popup 메시지들을 주로 사용.
-* doInBackground(String... params) : 보통 일반적으로 네트워크 등을 포함한 다양한 일처리등을 해준다.
-* onPostExecute(String s) : background에서 처리한 부분을 마지막으로 처리하는 부분이다. ui에 어떤것을 전달하든, 어떤 결과를 출력할 때 사용됨.
+* __execute()__ : 생성한 AsyncTask 상속한 객체를 실행시켜서 이 객체는 이때부터 백그라운드 작업을 수행하기 시작. 필요한 경우에 그 결과를 메인 스레드에서 실행.
+* __cancel()__ : execute()와 반대로 작업을 취소할 수 있다.
+* __onPreExecute()__ : background 작업을 알리는 즉 시작되지마자 실행될 코드. progress.dialog등 다양한 popup 메시지들을 주로 사용.
+* __doInBackground(String... params)__ : 보통 일반적으로 네트워크 등을 포함한 다양한 일처리등을 해준다.
+* __onPostExecute(String s)__ : background에서 처리한 부분을 마지막으로 처리하는 부분이다. ui에 어떤것을 전달하든, 어떤 결과를 출력할 때 사용됨.
 
 ### AsyncTask를 new 하면 나오는 인자.
 * AsyncTask<Params,Progress,Result>
-* Params : Background 작업을 할 때 필요한 데이터 타입을 정의한다.
-* Progress : Background 작업 도중 진행하는데 사용될 데이터 타입 정의.
-* Result : 작업 결과로서 리턴 받을 데이터 타입을 정의.
+* __Params__ : Background 작업을 할 때 필요한 데이터 타입을 정의한다.
+* __Progress__ : Background 작업 도중 진행하는데 사용될 데이터 타입 정의.
+* __Result__ : 작업 결과로서 리턴 받을 데이터 타입을 정의.
 
 ```java
 class TestAsyncTask extends AsyncTask<String, Void, String>{
