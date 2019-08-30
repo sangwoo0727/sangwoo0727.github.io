@@ -1,2 +1,4 @@
 User-agent: *
-Allow: 
+Allow: /
+
+Sitemap: http://sangwoo0727.github.io/sitemap.xml
