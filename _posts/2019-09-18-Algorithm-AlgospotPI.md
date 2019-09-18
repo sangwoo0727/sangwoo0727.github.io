@@ -29,8 +29,8 @@ comments:
 
 ```cpp
 #include <iostream>
-#include <cstring>
 #include <algorithm>
+#include <cstring>
 using namespace std;
 
 int dp[10005];
@@ -74,8 +74,6 @@ int main() {
 	int C;
 	cin >> C;
 	while (C--) {
-		memset(dp, 0, sizeof(dp));
-		memset(str, 0, sizeof(str));
 		cin >> str;
 		int cnt = 0;
 		dp[0] = 0; dp[1] = 0;
@@ -88,7 +86,10 @@ int main() {
 			dp[i] = min(dp[i - 3] + findlev3(i), min(dp[i - 4] + findlev4(i), dp[i - 5] + findlev5(i)));
 		}
 		cout << dp[strlen(str)-1] << '\n';
-		memset(dp, 0, sizeof(dp));
+		for (int i = 0; i < strlen(str); i++) {
+			dp[i] = 0;
+			str[i] = NULL;
+		}
 	}
 	return 0;
 }
