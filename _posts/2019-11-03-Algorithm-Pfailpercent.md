@@ -35,19 +35,23 @@ comments:
 #include <algorithm>
 using namespace std;
 
-bool comp(const pair <double, int>& a, const pair <double, int>& b) { //문제에서 요구한 조건에 맞춰 sort 구현
+bool comp(const pair <double, int>& a, const pair <double, int>& b) { 
+    //문제에서 요구한 조건에 맞춰 sort 구현
 	if (a.first > b.first) return true;
 	else if (a.first == b.first) return b.second > a.second;
 	else return false;
 }
 vector<int> solution(int N, vector<int> stages) {
 	int board[501];
-	int sum = stages.size(); //모든 사용자의 수
-	vector <pair <double, int>> fp; // double에는 실패율이, int에는 실패율에 해당하는 스테이지 번호가 들어간다.
+	int sum = stages.size(); 
+    //모든 사용자의 수
+	vector <pair <double, int>> fp; 
+    // double에는 실패율이, int에는 실패율에 해당하는 스테이지 번호가 들어간다.
 	vector<int> answer;
 	memset(board, 0, sizeof(board));
 	for (int i = 0; i < sum; i++) {
-		board[stages[i]]++; //스테이지 번호를 인덱스 삼고있는 배열에 해당 스테이지 번호를 깨고있는 사용자 수를 넣어준다.
+		board[stages[i]]++; 
+        //스테이지 번호를 인덱스 삼고있는 배열에 해당 스테이지 번호를 깨고있는 사용자 수를 넣어준다.
 	}
 	for (int i = 1; i <= N; i++) {
 		if (board[i] == 0) {
@@ -55,9 +59,11 @@ vector<int> solution(int N, vector<int> stages) {
 			sum -= board[i];
 		}
 		else {
-			double fail_per = (double)board[i] / sum; //실패율 계산
+			double fail_per = (double)board[i] / sum; 
+            //실패율 계산
 			fp.push_back({ fail_per,i });
-			sum -= board[i]; // 다음 스테이지에 도달한 사용자 수 sum을 업데이트
+			sum -= board[i]; 
+            // 다음 스테이지에 도달한 사용자 수 sum을 업데이트
 		}
 	}
 	sort(fp.begin(), fp.end(), comp);
