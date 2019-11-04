@@ -1,6 +1,6 @@
 ---
 title: "[OSI 참조모델과 TCP/IP 기초] 노드"
-excerpt: 여기가 미리보기?
+excerpt: 
 categories:
   - Network
 tags:
