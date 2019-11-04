@@ -1,6 +1,6 @@
 ---
 title: "[OSI 참조모델과 TCP/IP 기초] 노드"
-excerpt: 
+excerpt: what is node?
 categories:
   - Network
 read_time: false
