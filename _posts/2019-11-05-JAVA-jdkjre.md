@@ -1,0 +1,33 @@
+---
+title: "[Java] JDK와 JRE"
+categories:
+  - Java
+read_time: false
+tags:
+  - Java
+comments:
+  - true
+---
+
+### JDK란?
+* JDK(Java Development Kit)는 자바 애플리케이션을 구축하기 위한 핵심 플랫폼 구성요소.
+* JDK는 자바 가상머신(JVM)과 자바 런타임 환경(Java Runtime Environment)와 함께 자바 프로그래밍에 사용되는 3대 핵심 기술.
+* JDK는 개발자들이 JVM과 JRE에 의해 실행되고 구동될 수 있는 자바 프로그램을 생성할 수 있게 해준다.
+* JDK는 자바 기반 소프트웨어를 개발하기 위한 도구들로 이루어진 패키지.
+* JDK의 기술적 정의 : 컴파일러와 클래스 라이브러리를 포함하는 자바 플랫폼의 사양서의 구현
+* JDK의 일반적 정의 : 개발자가 자바 기반 애플리케이션 개발을 위해 다운로드 하는 소프트웨어 패키지
+
+### JRE란?
+* 자바 런타임 환경(Java Runtime Environment)
+* 자바 코드를 실행하기 위한 도구들로 구성된 패키지
+* 자바 프로그램을 구동하기 위한 독립형 구성요소로서 사용될 수도 있지만, JDK의 일부이기도 하다.
+* 자바 프로그램을 구동하는 것이 자바 프로그램 개발의 일환이기 때문에 JDK는 JRE를 필요로 한다.
+
+![](/assets/img/java/201911054.jpeg)
+
+
+#### 출처
+* [The Secret of Java- JDK, JRE, JVM difference](https://medium.com/@mannverma/the-secret-of-java-jdk-jre-jvm-difference-fa35201650ca)
+
+* ["JDK란 무엇인가" 자바 개발 키트 소개와 설치하기](http://www.itworld.co.kr/news/110817)
+
