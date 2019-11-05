@@ -1,5 +1,5 @@
 ---
-title: "[Java] JDK와 JRE"
+title: "[Java] JDK와 JRE "
 categories:
   - Java
 read_time: false
