@@ -2,6 +2,7 @@
 title: "[프로그래머스] 실패율"
 categories:
   - Algorithm
+read_time: false
 tags:
 - sort
 comments:
