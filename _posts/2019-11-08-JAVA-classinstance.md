@@ -64,5 +64,5 @@ public class BankAccountPO {
 
 
 ### 참고
-* 윤성우의 열혈 Java 프로그래밍, 오렌지 미디어
-* [[JAVA객체지향디자인패턴] 클래스(Class) 란 무엇인가?](https://javacpro.tistory.com/29)
+* __윤성우의 열혈 Java 프로그래밍, 오렌지 미디어__
+* __[[JAVA객체지향디자인패턴] 클래스(Class) 란 무엇인가?](https://javacpro.tistory.com/29)__
