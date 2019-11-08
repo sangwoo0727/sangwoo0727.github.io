@@ -55,7 +55,7 @@ public static void main(String[] args) {
 		}
 		
 		//System.out.println(num2); 
-           //위에서 별도의 영역을 만들어 num2는 그영역에서만 접근이 가능. 이 문장은 컴파일 에러 발생
+                //위에서 별도의 영역을 만들어 num2는 그영역에서만 접근이 가능. 이 문장은 컴파일 에러 발생
 	}
 }
 ```
