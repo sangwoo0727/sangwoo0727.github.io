@@ -61,10 +61,10 @@ vector<int> solution(int N, vector<int> stages) {
 		}
 		else {
 			double fail_per = (double)board[i] / sum; 
-            	//실패율 계산
+            		//실패율 계산
 			fp.push_back({ fail_per,i });
 			sum -= board[i]; 
-            	// 다음 스테이지에 도달한 사용자 수 sum을 업데이트
+            		// 다음 스테이지에 도달한 사용자 수 sum을 업데이트
 		}
 	}
 	sort(fp.begin(), fp.end(), comp);
