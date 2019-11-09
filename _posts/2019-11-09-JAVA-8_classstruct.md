@@ -1,10 +1,18 @@
 ---
-title: "[Java] 메소드와 변수의 스코프"
+title: "[Java] 클래스의 구성과 인스턴스화"
 categories:
   - Java
+date: 
 read_time: false
 tags:
   - Java
 comments:
   - true
 ---
+
+* [클래스란?](https://sangwoo0727.github.io/java/JAVA-classinstance/) 포스팅에서 클래스 정의를 위해 구현하였던 코드를 다시 봐보자.
+
+```java
+class BankAccount{
+
+}
