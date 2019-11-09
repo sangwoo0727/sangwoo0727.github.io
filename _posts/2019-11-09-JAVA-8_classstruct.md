@@ -2,7 +2,6 @@
 title: "[Java] 클래스의 구성과 인스턴스화"
 categories:
   - Java
-date: 
 read_time: false
 tags:
   - Java
