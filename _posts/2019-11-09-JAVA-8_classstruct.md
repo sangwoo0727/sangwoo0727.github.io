@@ -10,7 +10,7 @@ comments:
 ---
 
 ### 인스턴스 변수와 인스턴스 메소드
-* [클래스란?](https://sangwoo0727.github.io/java/JAVA-7_classinstance/) 
+* __[클래스란?](https://sangwoo0727.github.io/java/JAVA-7_classinstance/)__ 
 * 위 포스팅에서 클래스 정의를 위해 구현하였던 코드를 다시 봐보자.
 
 ```java
