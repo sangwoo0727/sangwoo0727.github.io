@@ -75,7 +75,7 @@ public BankAccount(String acc, String ss, int bal){ //생성자의 이름은 클
 * 생성자를 만들고 나면 인스턴스의 생성 문장을 아래와 같이 변경할 수 있다.
 
 ```java
-__BankAccount kang = new BankAccount("12-34-56","999999-1234567",1000);__
+BankAccount kang = new BankAccount("12-34-56","999999-1234567",1000);
 ```
 
 * 소괄호 안의 값들은 생성자가 호출될 때 __생성자의 매개변수로 전달__ 된다.
