@@ -9,7 +9,7 @@ comments:
   - true
 ---
 
-* [클래스란?](https://sangwoo0727.github.io/java/JAVA-classinstance/) 
+* [클래스란?](https://sangwoo0727.github.io/java/JAVA-7_classinstance/) 
 * 위 포스팅에서 클래스 정의를 위해 구현하였던 코드를 다시 봐보자.
 
 ```java
