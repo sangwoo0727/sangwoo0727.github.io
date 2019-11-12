@@ -35,13 +35,13 @@ comments:
 * __서로 다른 패키지의 두 클래스 파일은 저장되는 위치가 다르다__
 * 인스턴스 생성 시 사용되는 이름을 알아보자.
 * 도메인이 abcd.com인 회사의 aaaa 팀에서 개발한 클래스를 묶을 패키지 이름은?
- * com.abcd.aaaa
+ 1. com.abcd.aaaa
 * 패키지 안에 있는 Circle 클래스를 통해 인스턴스 생성하는 문장은?
- * com.abcd.aaaa.Circle c1 = new com.abcd.aaaa.Circle(3);
+ 1. com.abcd.aaaa.Circle c1 = new com.abcd.aaaa.Circle(3);
 * 도메인이 cdef.com인 회사의 bbbb 팀에서 개발한 클래스를 묶을 패키지 이름은?
- * com.cdef.bbbb
+ 1. com.cdef.bbbb
 * 패키지 안에 있는 Circle 클래스를 통해 인스턴스 생성하는 문장은?
- * com.cdef.bbbb.Circle c2 = new com.cdef.bbbb.Circle(4);
+ 1. com.cdef.bbbb.Circle c2 = new com.cdef.bbbb.Circle(4);
 
 * 이렇게 인스턴스 생성 및 참조 변수 선언 시 클래스의 이름 앞에 패키지 이름이 따라붙는 구조가 된다.
 * 클래스 파일이 저장되는 위치도 아래와 같이 변하게 된다.
