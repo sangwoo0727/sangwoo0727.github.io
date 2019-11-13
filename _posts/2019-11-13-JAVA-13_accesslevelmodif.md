@@ -1,5 +1,5 @@
 ---
-title: "[Java] 접근 수준 지시자(Access-level Modifiers)"
+title: "[Java] <span style="color:#34495e">접근 수준 지시자(Access-level Modifiers)</span>"
 categories:
   - Java
 read_time: false
@@ -17,10 +17,10 @@ comments:
 * __public, protected, private, default__ , 네 종류의 Access-level Modifiers가 존재한다.
 * __default__ 는 키워드가 아닌, __아무런 선언도 하지 않은 상황__ 을 의미한다.
 * Access-level Modifiers를 선언할 수 있는 대상은 아래의 두가지이다.
-* 1. __클래스의 정의__
-* 2. __클래스의 인스턴스 변수와 메소드__
+* -> __클래스의 정의__
+* -> __클래스의 인스턴스 변수와 메소드__
 
-### 클래스의 정의 대상의 Access-level Modifiers 선언이 갖는 의미
+### <span style="color:#34495e">클래스의 정의 대상의 Access-level Modifiers 선언이 갖는 의미</span>
 * 클래스의 정의 대상은 4가지의 접근 수준 지시자 중, __public과 default__ 선언이 가능하다.
 * 먼저 public으로 선언된 클래스는 __위치에 상관없이 어디서든 해당 클래스의 인스턴스를 생성할 수 있다.__
 * default로 선언된 클래스는 __동일 패키지로 묶인 클래스 내에서만 인스턴스 생성이 가능하다.__
@@ -67,7 +67,7 @@ public class Dog{
 * 1. __하나의 소스파일에 하나의 클래스만 public으로 선언한다.__
 * 2. __소스파일의 이름과 public으로 선언된 클래스의 이름을 일치시킨다.__
 
-### 인스턴스 멤버 대상의 Access-level Modifiers 선언
+### <span style="color:#34495e">인스턴스 멤버 대상의 Access-level Modifiers 선언</span>
 * 인스턴스 멤버(변수,메소드)는 __public, protected, private, default__ 중 하나로 선언된다.
 * 인스턴스 멤버 대상의 public과 default 선언이 갖는 의미는 아래와 같다.
 * __public : 어디서든 접근이 가능하다.__
@@ -110,7 +110,7 @@ public class Dog{
 * 1. Dog.java의 패키지를 zoo로 수정한다.
 * 2. makeHappy 메소드를 public으로 선언한다.
 
-### 인스턴스 멤버의 private 선언이 갖는 의미
+### <span style="color:#34495e">인스턴스 멤버의 private 선언이 갖는 의미</span>
 * __[정보 은닉 포스팅](https://sangwoo0727.github.io/java/JAVA-12_informationhiding/)__ 에서 private 선언의 기능과 의미에 대해 알아보았다.
 * 클래스에 private로 선언된 인스턴스 변수는 클래스 내부에서만 접근이 허용되었다.
 * 마찬가지로, private로 선언된 메소드 역시 클래스 내부에서만 호출이 가능하다.
@@ -133,7 +133,7 @@ class Duck{
 }
 ```
 
-### 인스턴스 멤버의 protected 선언이 갖는 의미
+### <span style="color:#34495e">인스턴스 멤버의 protected 선언이 갖는 의미</span>
 * __상속__ 을 학습한 후에 protected를 다시 공부하면 더욱 이해가 잘 될 것.
 * __protected 선언은 default 선언이 허용하는 접근을 모두 허용한다__.
 * 더불어 __protected는 default가 허용하지 않는 '하나의 영역'에서의 접근도 허용한다__
@@ -179,7 +179,7 @@ public class AAA{
 * __'protected로 선언된 멤버는 상속 관계에 있는 다른 클래스에서 접근이 가능하다'__
 * 이러한 접근은 상속관계에 있는 두 클래스가 서로 다른 패키지로 묶여 있어도 가능하다.
 
-### 인스턴스 멤버를 대상으로 하는 public, protected, private, default에 대한 정리
+### <span style="color:#34495e">인스턴스 멤버를 대상으로 하는 public, protected, private, default에 대한 정리</span>
 * 네 개의 Access-level Modifiers에 대해 허용하는 접근의 수준을 정리해보자
 
 | <center>지시자</center> | <center>클래스 내부</center> | <center>동일 패키지</center> | <center>상속 받은 클래스</center> | <center>이외의 영역</center>|
