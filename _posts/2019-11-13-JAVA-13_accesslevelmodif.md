@@ -1,5 +1,5 @@
 ---
-title: "[Java] <span style="color:#34495e">접근 수준 지시자(Access-level Modifiers)</span>"
+title: "<span style="color:#34495e">[Java] 접근 수준 지시자(Access-level Modifiers)</span>"
 categories:
   - Java
 read_time: false
