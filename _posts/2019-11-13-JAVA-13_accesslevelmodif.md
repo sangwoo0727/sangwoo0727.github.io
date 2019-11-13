@@ -13,7 +13,7 @@ comments:
 * 이러한 유형의 키워드를 가리켜 __접근 수준 지시자(Access-level Modifiers)__ 라고 한다.
 * __접근의 허용 수준을 결정할 때__ 사용하는 키워드.
 
-### 네 가지 종류의 접근 수준 지시자
+### <span style="color:#34495e">네 가지 종류의 접근 수준 지시자</span> 
 * __public, protected, private, default__ , 네 종류의 Access-level Modifiers가 존재한다.
 * __default__ 는 키워드가 아닌, __아무런 선언도 하지 않은 상황__ 을 의미한다.
 * Access-level Modifiers를 선언할 수 있는 대상은 아래의 두가지이다.
