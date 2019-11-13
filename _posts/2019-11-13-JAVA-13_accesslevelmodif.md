@@ -107,8 +107,8 @@ public class Dog{
 
 * makeHappy() 메소드는 default로 선언되었기때문에, 동일 패키지가 아닌 클래스에서는 호출이 불가능하다.
 * 오류없이 컴파일을 완료할 수 있는 방법에 대해 생각해보자.
-* 1. Dog.java의 패키지를 zoo로 수정한다.
-* 2. makeHappy 메소드를 public으로 선언한다.
+* -> Dog.java의 패키지를 zoo로 수정한다.
+* -> makeHappy 메소드를 public으로 선언한다.
 
 ### <span style="color:#34495e">인스턴스 멤버의 private 선언이 갖는 의미</span>
 * __[정보 은닉 포스팅](https://sangwoo0727.github.io/java/JAVA-12_informationhiding/)__ 에서 private 선언의 기능과 의미에 대해 알아보았다.
