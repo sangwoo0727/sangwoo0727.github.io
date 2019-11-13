@@ -1,5 +1,5 @@
 ---
-title: "[Java] 정보 은닉(Information Hiding)"
+title: "[Java] 접근 수준 지시자(Access-level Modifiers)"
 categories:
   - Java
 read_time: false
