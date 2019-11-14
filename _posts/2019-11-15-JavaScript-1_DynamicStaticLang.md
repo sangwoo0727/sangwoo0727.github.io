@@ -35,7 +35,7 @@ comments:
 * 자바스크립트는 대표적인 동적 언어이지만, 자바스크립트 역시 Type에 대해 재밌는 부분들이 많다. 
 * 다음 포스팅은 Type에 대한 이야기로 시작하겠다.
 
-### 참고
+### <span style="color:#34495e">참고</span>
 * [StackOverflow](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages)
 * [정적언어(타입)과 동적언어(타입)](https://itmining.tistory.com/65)
 
