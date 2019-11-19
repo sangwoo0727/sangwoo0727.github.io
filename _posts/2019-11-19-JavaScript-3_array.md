@@ -106,6 +106,6 @@ foo("bar","baz");
 
 __You Don't Know JS, 카일 심슨 저, 한빛미디어__
 
-[배열과 유사배열](https://www.zerocho.com/category/JavaScript/post/5af6f9e707d77a001bb579d2)
+__[배열과 유사배열](https://www.zerocho.com/category/JavaScript/post/5af6f9e707d77a001bb579d2)__
 
-[[javascript] 유사배열](https://sub0709.tistory.com/13)
+__[[javascript] 유사배열](https://sub0709.tistory.com/13)__
