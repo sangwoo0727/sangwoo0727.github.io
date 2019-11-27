@@ -1,9 +1,9 @@
 ---
-title: "[Node.js] 노드 시작하기 2"
+title: "[NodeJS] 노드 시작하기 2"
 categories:
-  - Node.js
+  - NodeJS
 tags:
-  - Node.js
+  - NodeJS
   - javascript
   - server
 comments:
