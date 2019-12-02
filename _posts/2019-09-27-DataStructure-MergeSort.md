@@ -2,6 +2,7 @@
 title: "[자료구조] 머지소트"
 categories:
   - DataStructure
+read_time: false
 tags:
   - MergeSort
 comments:
