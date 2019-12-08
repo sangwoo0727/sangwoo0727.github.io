@@ -24,7 +24,7 @@ comments:
 
 ### <span style="color:#34495e">[네이티브 사용법]</span>
 
-코드를 먼저 봐보자
+코드를 먼저 봐보자.
 
 ```javascript
 let s = new String("Hello World");
@@ -69,9 +69,7 @@ Object.prototype.toString.call(42); //[object Number]
 
 즉 원시타입에 대응하는 래퍼객체가 존재하고, 래퍼객체는 원시타입을 감싸는 용도로 사용된다.
 
-그렇기때문에, "hello".toUpperCase(); 처럼 "hello"가 string 타입의 원시자료형임에도 불구하고, 메소드를 호출할 수 있는 이유는
-
-String 자료형을 래퍼 객체로 임시로 변환하기 때문이다.
+그렇기때문에, "hello".toUpperCase(); 처럼 "hello"가 string 타입의 원시자료형임에도 불구하고, 메소드를 호출할 수 있는 이유는 __String 자료형을 래퍼 객체로 임시로 변환하기 때문이다.__
 
 ### <span style="color:#34495e">[래퍼 박싱하기]</span>
 
