@@ -1,5 +1,5 @@
 ---
-title: "[JavaScript] 네이티브-1"
+title: "[JavaScript] 네이티브"
 categories:
   - JavaScript
 read_time: false
