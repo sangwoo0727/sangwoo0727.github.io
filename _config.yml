@@ -100,9 +100,9 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
-analytics: 'UA-154485953-1'
+analytics: 
   provider               : false # false (default), "google", "google-universal", "custom"
-  google:
+  google: UA-154485953-1
     tracking_id          : 
     anonymize_ip         : # true, false (default)
 
