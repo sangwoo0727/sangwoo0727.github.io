@@ -1,10 +1,10 @@
 ---
 title: "[NodeJS] NodeJS로 API 서버 구축하기 - 2"
 categories:
-  - Nodejs
+  - NodeJS
 read_time: false
 tags:
-  - Nodejs
+  - NodeJS
 comments:
   - true
 ---
