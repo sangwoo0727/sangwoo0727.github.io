@@ -13,8 +13,6 @@ comments:
 
 * 제목과 약간은 이질적이지만 거창한 프로젝트가 아닌, 공부한 이론을 정리하며 쓰는 글입니다.
 
-* 참고하며 읽어주세요. 바로 시작합니다.
-
 ## 노드js의 "Hello World"
 
 [노드js 공식문서](https://nodejs.org/dist/latest-v12.x/docs/api/synopsis.html) 에 들어가면 hello-world.js 코드가 있다. 코드를 먼저 살펴보자.
