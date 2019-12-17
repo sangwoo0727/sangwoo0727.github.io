@@ -19,7 +19,7 @@ comments:
 
 다만 보안 서약서때문에 자세한 내용은 쓰지못하고, 간단한 느낌과 준비에 대해 써보겠습니다.
 
-싸피는 __Samsung SW Academy For Youth이__ 정식 명칭이라고 합니다.
+싸피는 __Samsung SW Academy For Youth__ 가 정식 명칭이라고 합니다.
 
 ## 자소서
 
