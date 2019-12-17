@@ -1,5 +1,5 @@
 ---
-title: "삼성 청년 SW 아카데미 3기 합격후기"
+title: "삼성 청년 SW 아카데미(SSAFY) 3기 합격후기"
 categories:
   - Daily
 tags:
