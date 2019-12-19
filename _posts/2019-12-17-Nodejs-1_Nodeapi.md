@@ -1,5 +1,5 @@
 ---
-title: "[NodeJS] NodeJS로 API 서버 구축하기 - 1"
+title: "[NodeJS로 API 서버 구축하기] 1. HelloWorld"
 categories:
   - NodeJS
 read_time: false

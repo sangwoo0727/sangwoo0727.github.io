@@ -1,5 +1,5 @@
 ---
-title: "[NodeJS] NodeJS로 API 서버 구축하기 - 2"
+title: "[NodeJS로 API 서버 구축하기] 2. 클라이언트 요청에 따른 분기"
 categories:
   - NodeJS
 read_time: false
