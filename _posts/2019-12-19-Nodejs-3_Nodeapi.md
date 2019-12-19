@@ -130,6 +130,6 @@ next() 함수에는 인자의 종류에 따라 몇 가지 기능이 구분된다
 
 ## 출처
 
-* [WebFrameworks](http://webframeworks.kr/getstarted/expressjs/)
+[WebFrameworks](http://webframeworks.kr/getstarted/expressjs/)
 
-* [Express.js - 2. 라우팅](http://jeonghwan-kim.github.io/express-js-2-%eb%9d%bc%ec%9a%b0%ed%8c%85/)
+[Express.js - 2. 라우팅](http://jeonghwan-kim.github.io/express-js-2-%eb%9d%bc%ec%9a%b0%ed%8c%85/)
