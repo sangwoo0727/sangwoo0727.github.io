@@ -37,8 +37,8 @@ void permutation(int r) {
 		if (!check[k]) {
 			check[k] = true;
 			arr[r] = k;
-			permutation(i + 1);
-			check[r] = false;
+			permutation(r + 1);
+			check[k] = false;
 		}
 	}
 }
