@@ -7,7 +7,6 @@ tags:
   - NodeJS
 comments:
   - true
-toc: true
 ---
 
 ## 들어가기 전
