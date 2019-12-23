@@ -7,6 +7,8 @@ tags:
 read_time: false
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## 삼성 청년 SW 아카데미 3기 합격후기
