@@ -6,6 +6,8 @@ tags:
   - String
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [프로그래머스] 가운데 글자 가져오기

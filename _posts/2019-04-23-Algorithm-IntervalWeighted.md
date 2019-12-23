@@ -9,6 +9,8 @@ tags:
   - Longest Path Problem
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [알고리즘 설계] 가중치가 주어지는 Interval Graph (Weighted Independent Set)

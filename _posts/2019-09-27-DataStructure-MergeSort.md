@@ -7,6 +7,8 @@ tags:
   - MergeSort
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [자료구조] 머지소트

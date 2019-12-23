@@ -6,6 +6,8 @@ tags:
   - MySQL
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [MySQL] 계정 생성 및 권한 부여
 

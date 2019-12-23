@@ -7,6 +7,8 @@ tags:
   - Java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 * 자바에서 말하는 __정보__ 는 클래스의 __인스턴스 변수__ 를 의미한다.

@@ -7,6 +7,8 @@ tags:
   - Java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ### 클래스란?

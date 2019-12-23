@@ -8,6 +8,8 @@ tags:
   - Algorithm
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [알고리즘설계] BFS를 이용한 위상정렬

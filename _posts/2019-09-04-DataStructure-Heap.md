@@ -7,6 +7,8 @@ tags:
   - PriorityQueue
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [자료구조] 힙

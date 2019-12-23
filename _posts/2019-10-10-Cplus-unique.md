@@ -7,6 +7,8 @@ tags:
   - unique
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [C++] unique를 이용한 벡터의 중복원소 제거
 

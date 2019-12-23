@@ -7,6 +7,8 @@ tags:
   - auto
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [C++] auto 이해하기
 

@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크 개론] 네트워크를 구성하는 장치
 * 네트워크는 물리적인 연결 방법부터 그 위를 흐르는 전기신호의 정의, 통신 내용의 송수신 방법 등 다양한 규칙이 정해져있다.

@@ -7,6 +7,8 @@ tags:
   - Algorithm
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [SWEA1231] 중위순회
 

@@ -7,6 +7,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [OSI 참조모델과 TCP/IP 기초] 노드
 * 네트워크에 연결되어 있는 네트워크 기기나 네트워크의 연결포인트를 통틀어 __노드__ 라고 한다.

@@ -6,6 +6,8 @@ tags:
   - DataStructure
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [자료구조기초] 자료구조의 개념

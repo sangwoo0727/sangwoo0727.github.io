@@ -6,6 +6,8 @@ tags:
   - RaspberryPi
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [라즈베리파이] 기본예제. picamera를 이용한 사진찍기

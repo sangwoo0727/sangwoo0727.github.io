@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크 개론] 네트워크의 서비스
 * 서비스란 서버가 네트워크에 제공하는 기능을 말한다.

@@ -6,6 +6,8 @@ tags:
 - string
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [프로그래머스] 문자열 압축
 

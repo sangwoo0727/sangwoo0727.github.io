@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크 개론] LAN과 WAN
 

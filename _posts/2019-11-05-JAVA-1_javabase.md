@@ -7,6 +7,8 @@ tags:
   - Java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ### 자바 프로그램의 실행 구조와 자바 가상머신

@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크 프로그래밍] HTTP 메소드
 * HTTP 서버와의 통신은 요청-응답 패턴을 따른다. 하나의 무상태(stateless) 요청과 뒤이어 오는 하나의 무상태 응답으로 구성된다. 

@@ -6,6 +6,8 @@ tags:
   - RaspberryPi
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [라즈베리파이] 기본예제. LED 동작 구현

@@ -7,6 +7,8 @@ tags:
   - Java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 * 패키지는 간단하게 __클래스를 묶는 수단__ 이다.

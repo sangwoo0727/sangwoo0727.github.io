@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크] 유니,브로드,멀티 캐스트
 * 캐스트에서 유니캐스트, 브로드캐스트, 멀티캐스트로 나누는 구분은 네트워크에서 통신을 하는 방식에 따른 구분.

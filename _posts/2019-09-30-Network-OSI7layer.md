@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크] OSI 7 Layer
 * 통신에 관한 국제적인 표준기구 International Organization for Standardization(ISO)에서 만든 통신이 일어나는 과정을 7단계로 나눈 것.

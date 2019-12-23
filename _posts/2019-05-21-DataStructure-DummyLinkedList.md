@@ -8,6 +8,8 @@ tags:
   - DataStructure
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [자료구조]더미노드를 활용한 정렬기능이 추가된 연결리스트

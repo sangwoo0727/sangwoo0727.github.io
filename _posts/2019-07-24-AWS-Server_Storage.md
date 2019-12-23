@@ -9,6 +9,8 @@ tags:
   - Storage
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [AWS] 서버와 스토리지

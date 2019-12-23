@@ -7,6 +7,8 @@ tags:
   - BRUTEFORCE
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [알고스팟] BOGGLE-보글게임
 

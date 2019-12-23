@@ -9,6 +9,8 @@ tags:
   - application
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## 스마트폰에서 커밋 확인 - 잔디밭 빵구내지 말자!

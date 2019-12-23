@@ -6,6 +6,8 @@ tags:
   - MST
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [자료구조] 최소 스패닝 트리

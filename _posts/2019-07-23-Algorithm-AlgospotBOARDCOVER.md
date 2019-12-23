@@ -7,6 +7,8 @@ tags:
   - Algorithm
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [알고스팟] BOARDCOVER-게임판 덮기

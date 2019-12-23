@@ -8,6 +8,8 @@ tags:
   - DataStructure
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [자료구조] 연결리스트 기반 스택의 구현

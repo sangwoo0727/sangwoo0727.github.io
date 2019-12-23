@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크 프로그래밍] HTTP
 * HTTP는 웹 클라이언트가 서버와 대화하는 방법과 서버에서 다시 클라이언트로 데이터가 전송되는 방법을 정의한 표준이다.

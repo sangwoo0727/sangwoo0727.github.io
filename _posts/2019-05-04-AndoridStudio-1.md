@@ -8,6 +8,8 @@ tags:
   - java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [안드로이드 스튜디오] 1. 기초
 

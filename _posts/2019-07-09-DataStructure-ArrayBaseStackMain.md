@@ -8,6 +8,8 @@ tags:
   - DataStructure
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [자료구조] 배열 기반 스택의 구현

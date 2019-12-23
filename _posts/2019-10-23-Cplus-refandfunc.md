@@ -7,6 +7,8 @@ tags:
   - Reference
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [C++] 참조자(Reference)와 함수
 

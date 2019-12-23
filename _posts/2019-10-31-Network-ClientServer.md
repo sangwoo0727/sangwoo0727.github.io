@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크 개론] 클라이언트와 서버
 * 클라이언트는 네트워크에서 서비스를 요구하는 측의 컴퓨터를 말한다.

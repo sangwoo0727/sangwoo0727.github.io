@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [OSI 참조모델과 TCP/IP 기초] 패킷
 * 컴퓨터 통신을 할 때 사용하는 __작게 분할된 데이터 덩어리__.

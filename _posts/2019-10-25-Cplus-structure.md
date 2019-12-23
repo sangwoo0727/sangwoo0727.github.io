@@ -7,6 +7,8 @@ tags:
   - class
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [C++] 클래스의 기초 : C++에서의 구조체
 * 구조체를 사용하면, 연관 있는 데이터를 하나로 묶으면 프로그램의 구현 및 관리가 용이하다.

@@ -8,6 +8,8 @@ tags:
   - combination
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [알고리즘설계] 재귀를 이용한 순열,조합

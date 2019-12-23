@@ -7,6 +7,8 @@ tags:
   - new&delete
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [C++] new & delete
 

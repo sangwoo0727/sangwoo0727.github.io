@@ -7,6 +7,9 @@ tags:
   - Java
 comments:
   - true
+toc: true
+toc_sticky: true
+
 ---
 
 ### 인스턴스 변수와 인스턴스 메소드

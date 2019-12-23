@@ -8,6 +8,8 @@ tags:
   - java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [안드로이드 스튜디오] 2.로그인 화면 디자인하기

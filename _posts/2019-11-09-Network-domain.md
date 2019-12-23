@@ -7,6 +7,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 * 도메인이란 __인터넷상에 존재하는 컴퓨터의 소속을 가리키는 것__ .

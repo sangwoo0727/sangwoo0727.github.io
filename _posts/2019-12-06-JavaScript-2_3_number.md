@@ -7,6 +7,8 @@ tags:
   - JavaScript
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 * 이 책은 __You Don't Know JS, 카일 심슨 저, 한빛미디어__ 를 공부하며 작성한 글입니다.

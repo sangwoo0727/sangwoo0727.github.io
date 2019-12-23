@@ -7,6 +7,8 @@ tags:
 - sort
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [프로그래머스] 실패율
 

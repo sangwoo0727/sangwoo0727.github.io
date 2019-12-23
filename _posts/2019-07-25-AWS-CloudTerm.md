@@ -7,6 +7,8 @@ tags:
   - AWS
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [AWS] 클라우드 용어

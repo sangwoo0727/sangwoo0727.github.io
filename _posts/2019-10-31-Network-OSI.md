@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [OSI 참조모델과 TCP/IP 기초] OSI 참조모델
 * 네트워크에서는 서로 다른 기기들 간에 데이터를 문제없이 송수신할 수 있도록 상호 운용성을 실천하는 것이 중요.

@@ -7,6 +7,8 @@ tags:
   - BFS
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [SWEA1249] 보급로
 

@@ -8,6 +8,8 @@ tags:
   - Algorithm
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [알고리즘 설계] Interval Graph - 2 (Scheduling)

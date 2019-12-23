@@ -7,6 +7,8 @@ tags:
   - Java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 * 앞선 자바 포스팅들에서 정의한 클래스에는 문제점이 몇 가지 있다.

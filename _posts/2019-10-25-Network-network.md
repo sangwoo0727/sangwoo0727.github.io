@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크 프로그래밍] TCP/IP 4계층
 * 네트워크를 통한 전송은 데이터의 논리적인 특성뿐만 아니라 네트워크의 물리적 특성까지 고려하여 주의 깊게 다뤄야 하는 복잡한 작업.

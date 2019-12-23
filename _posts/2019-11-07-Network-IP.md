@@ -7,6 +7,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [OSI 참조모델과 TCP/IP 기초] IP 주소
 * 인터넷과 같이 IP를 기반으로 하는 네트워크에서 한 대의 컴퓨터마다 할당되어 있는 식별번호로, 32비트 수치로 표현.

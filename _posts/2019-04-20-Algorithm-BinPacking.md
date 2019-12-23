@@ -9,6 +9,8 @@ tags:
   - NP
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [알고리즘설계] Bin-Packing

@@ -7,6 +7,8 @@ tags:
   - Algorithm
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [알고리즘설계] 퀵소트의 '평균' 시간복잡도

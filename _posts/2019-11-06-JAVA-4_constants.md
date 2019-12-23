@@ -8,6 +8,8 @@ tags:
   - constants
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ### 자바의 일반적인 상수

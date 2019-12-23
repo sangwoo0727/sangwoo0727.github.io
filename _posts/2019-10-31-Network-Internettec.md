@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [네트워크 개론] 인터넷 기술
 * 인터넷은 LAN끼리 연결함으로써 세계 구모로 확장시킨 네트워크

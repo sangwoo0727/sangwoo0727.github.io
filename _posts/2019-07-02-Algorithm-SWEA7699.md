@@ -7,6 +7,8 @@ tags:
   - DFS
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [SWEA7699] 수지의 수지 맞는 여행
 

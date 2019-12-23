@@ -6,6 +6,8 @@ tags:
   - Network
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [OSI 참조모델과 TCP/IP 기초] TCP/IP
 * TCP/IP는 인터넷에서 표준으로 사용되고 있는 네트워크 프로토콜로, OSI 참조 모델의 3계층(네트워크 계층)의 IP를 중심으로 한 여러 프로토콜의 집합체를 총칭하여 부르는 것.

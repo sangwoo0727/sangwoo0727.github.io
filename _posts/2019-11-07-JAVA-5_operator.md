@@ -7,6 +7,8 @@ tags:
   - Java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 * 연산자란 __연산을 목적으로 정의된 기호__.

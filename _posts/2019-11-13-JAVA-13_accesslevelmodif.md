@@ -7,6 +7,8 @@ tags:
   - Java
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 * [이전 포스팅](https://sangwoo0727.github.io/java/JAVA-12_informationhiding/) 에서 인스턴스 변수를 대상으로 private 선언을 하였다.

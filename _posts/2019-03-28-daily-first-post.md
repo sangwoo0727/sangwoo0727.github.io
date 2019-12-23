@@ -5,6 +5,8 @@ categories:
 tags:
   - Daily
   - Github
+toc: true
+toc_sticky: true
 ---
 ### 깃허브 페이지를 선택하다.  
 

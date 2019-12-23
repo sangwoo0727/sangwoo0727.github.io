@@ -7,6 +7,8 @@ tags:
   - class
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 ## [C++] 클래스의 기본
 

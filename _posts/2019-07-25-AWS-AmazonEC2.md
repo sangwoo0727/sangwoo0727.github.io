@@ -7,6 +7,8 @@ tags:
   - AWS
 comments:
   - true
+toc: true
+toc_sticky: true
 ---
 
 ## [AWS] Amazon EC2
