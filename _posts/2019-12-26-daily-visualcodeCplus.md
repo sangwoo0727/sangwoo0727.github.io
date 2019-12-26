@@ -22,7 +22,7 @@ toc_sticky: true
 
 ## 사전 작업
 
-먼저 맥에 아래 두개가 설치 되어있어야 합니다.
+먼저 맥에 아래 두개가 설치 되어있어야 한다.
 
 * [g++](https://zetawiki.com/wiki/GCC,_gcc,_g%2B%2B)
 * [lldb](https://ko.wikipedia.org/wiki/LLDB)
@@ -37,23 +37,23 @@ lldb는 그냥 터미널에 쳐보면 알 수 있다.
 
 ## Extensions 설치
 
-VSCode 마켓으로 이동하여 C++을 입력하면, 아래 그림과 같은 애가 나옵니다.
+VSCode 마켓으로 이동하여 C++을 입력하면, 아래 그림과 같은 애가 나온다.
 
 ![](/assets/img/daily/extensions.png)
 
-설치하고 VSCode를 재실행하면 됩니다.
+설치하고 VSCode를 재실행하면 된다.
 
 ## 파일 생성 및 프로그래밍
 
-먼저 비쥬얼코드에서 새로운 폴더를 하나 만들어 줍니다.
+먼저 비쥬얼코드에서 새로운 폴더를 하나 만들어 준다.
 
-그리고, hello.cpp 파일을 하나 생성합니다.
+그리고, hello.cpp 파일을 하나 생성한다.
 
 ![](/assets/img/daily/filename.png)
 
-이후, command + shift + b 명령어를 주면, tasks.json으로 접근할 수 있게 됩니다.
+이후, command + shift + b 명령어를 눌러보면 tasks.json으로 접근할 수 있게 된다.
 
-```json
+```JSON
 {
 // tasks.json 형식에 대한 설명서는 
     // https://go.microsoft.com/fwlink/?LinkId=733558의 내용을 참조하세요.
@@ -112,15 +112,15 @@ VSCode 마켓으로 이동하여 C++을 입력하면, 아래 그림과 같은 �
 }
 ```
 
-내용을 위와 같이 바꿔줍니다.
+내용을 위와 같이 바꿔준다.
 
 그 후, 다시 ctrl + shift + b 를 누르면, 
 
 ![](/assets/img/daily/exec.png)
 
-이와 같이 나옵니다.
+이와 같이 나온다.
 
-먼저 g++ 로 빌드를 하고, 그 후, exec 을 누르면 실행이 되는 것을 알 수 있습니다.
+먼저 g++ 로 빌드를 하고, 그 후, exec 을 누르면 실행이 되는 것을 알 수 있다.
 
 ![](/assets/img/daily/run.png)
 
