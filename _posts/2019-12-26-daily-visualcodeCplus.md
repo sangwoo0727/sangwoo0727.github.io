@@ -52,7 +52,7 @@ VSCode 마켓으로 이동하여 C++을 입력하면, 아래 그림과 같은 �
 
 이후, command + shift + b 명령어를 눌러보면 tasks.json으로 접근할 수 있게 된다.
 
-```JSON
+```json
 {
 // tasks.json 형식에 대한 설명서는 
     // https://go.microsoft.com/fwlink/?LinkId=733558의 내용을 참조하세요.
