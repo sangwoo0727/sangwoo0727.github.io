@@ -87,13 +87,13 @@ VSCode 마켓으로 이동하여 C++을 입력하면, 아래 그림과 같은 �
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
+            "problemMatcher": [
+                "$gcc"
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "problemMatcher": [
-                "$gcc"
-            ]
+            }
         },
         {
             "label": "exec",
