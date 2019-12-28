@@ -36,12 +36,12 @@ __논리적으로 정확하게 확인하는 과정이__ 필요하다.
 
 ## 문제 1. 다음을 명제식 형태로 쓰고 참인지 거짓인지 판단하시오
 
-<i class="far fa-sticky-note"></i> **1번 : ** 만약 0이 홀수라면, 미국에서 2080년 월드컵이 열린다.
+<i class="far fa-sticky-note"></i> **1번 :**  만약 0이 홀수라면, 미국에서 2080년 월드컵이 열린다.
 {: .notice--primary}
 {: .text-justify}
 
 
-<i class="far fa-sticky-note"></i> **2번 : ** 만약 1989382793827489가 Prime Number라면, 2는 짝수이다.
+<i class="far fa-sticky-note"></i> **2번 :**  만약 1989382793827489가 Prime Number라면, 2는 짝수이다.
 {: .notice--primary}
 {: .text-justify}
 
@@ -50,15 +50,15 @@ __논리적으로 정확하게 확인하는 과정이__ 필요하다.
 
 ## 문제 2. p와 q가 명제이고, p->q가 거짓이라고 하자. 다음 명제식의 참 거짓은 어떻게 되는가?
 
-<i class="far fa-sticky-note"></i> **1번 : ** ~p -> q
+<i class="far fa-sticky-note"></i> **1번 :**  ~p -> q
 {: .notice--primary}
 {: .text-justify}
 
-<i class="far fa-sticky-note"></i> **2번 : ** p V q
+<i class="far fa-sticky-note"></i> **2번 :**  p V q
 {: .notice--primary}
 {: .text-justify}
 
-<i class="far fa-sticky-note"></i> **3번 : ** q -> p
+<i class="far fa-sticky-note"></i> **3번 :**  q -> p
 {: .notice--primary}
 {: .text-justify}
 
@@ -66,11 +66,11 @@ __논리적으로 정확하게 확인하는 과정이__ 필요하다.
 
 ## 문제 3. 다음 명제들의 역,이,대우를 쓰시오
 
-<i class="far fa-sticky-note"></i> **1번 : ** 만약 0이 홀수라면, 미국에서 2080년 월드컵이 열린다.
+<i class="far fa-sticky-note"></i> **1번 :**  만약 0이 홀수라면, 미국에서 2080년 월드컵이 열린다.
 {: .notice--primary}
 {: .text-justify}
 
-<i class="far fa-sticky-note"></i> **2번 : ** 만약 19928394872181이 Prime Number라면, 2는 짝수이다.
+<i class="far fa-sticky-note"></i> **2번 :**  만약 19928394872181이 Prime Number라면, 2는 짝수이다.
 {: .notice--primary}
 {: .text-justify}
 
@@ -88,11 +88,11 @@ __2번__
 
 ## 문제 4. 다음 명제식의 진리표를 만드시오.
 
-<i class="far fa-sticky-note"></i> **1번 : ** p ∧ (q -> ~p)
+<i class="far fa-sticky-note"></i> **1번 :**  p ∧ (q -> ~p)
 {: .notice--primary}
 {: .text-justify}
 
-<i class="far fa-sticky-note"></i> **2번 : ** (p ∧ ~q) -> r
+<i class="far fa-sticky-note"></i> **2번 :**  (p ∧ ~q) -> r
 {: .notice--primary}
 {: .text-justify}
 
@@ -110,17 +110,17 @@ P(1)이 참이고, P(1) ∧ P(2) ∧ ... P(n) -> P(n+1)이 참이면 P(n)은 모
 
 ## 증명 연습 1
 
-<i class="far fa-sticky-note"></i> **Note : ** Trivial Proof : ∀x, P(x) -> Q(x)를 증명하려 할 때, Q(x)가 항상 참인 경우.
+<i class="far fa-sticky-note"></i> **Note :**  Trivial Proof : ∀x, P(x) -> Q(x)를 증명하려 할 때, Q(x)가 항상 참인 경우.
 {: .notice--info}
 {: .text-justify}
 
 * 다음 명제를 증명하시오.
 
-<i class="far fa-sticky-note"></i> **1번 : ** 실수 x에 대해, 만약 x < -1 이면, x^2 + 1/4 > 0이다.
+<i class="far fa-sticky-note"></i> **1번 :**  실수 x에 대해, 만약 x < -1 이면, x^2 + 1/4 > 0이다.
 {: .notice--primary}
 {: .text-justify}
 
-<i class="far fa-sticky-note"></i> **2번 : ** n이 홀수이면, 4n^3 + 6n^2 + 12는 짝수이다.
+<i class="far fa-sticky-note"></i> **2번 :**  n이 홀수이면, 4n^3 + 6n^2 + 12는 짝수이다.
 {: .notice--primary}
 {: .text-justify}
 
@@ -128,17 +128,17 @@ P(1)이 참이고, P(1) ∧ P(2) ∧ ... P(n) -> P(n+1)이 참이면 P(n)은 모
 
 ## 증명 연습 2
 
-<i class="far fa-sticky-note"></i> **Note : ** Vacuous Proof : ∀x, P(x) -> Q(x)를 증명하려 할 때, P(x)가 항상 거짓인 경우.
+<i class="far fa-sticky-note"></i> **Note :**  Vacuous Proof : ∀x, P(x) -> Q(x)를 증명하려 할 때, P(x)가 항상 거짓인 경우.
 {: .notice--info}
 {: .text-justify}
 
 * 다음 명제를 증명하시오.
 
-<i class="far fa-sticky-note"></i> **1번 : ** 실수 x에 대해, 만약 2x^2 - 4x + 4 < 0 이면, x > 8 이다.
+<i class="far fa-sticky-note"></i> **1번 :**  실수 x에 대해, 만약 2x^2 - 4x + 4 < 0 이면, x > 8 이다.
 {: .notice--primary}
 {: .text-justify}
 
-<i class="far fa-sticky-note"></i> **2번 : ** 4n^3 + 6n^2 + 11이 짝수이면 n이 홀수이다.
+<i class="far fa-sticky-note"></i> **2번 :**  4n^3 + 6n^2 + 11이 짝수이면 n이 홀수이다.
 {: .notice--primary}
 {: .text-justify}
 
