@@ -36,6 +36,14 @@ __논리적으로 정확하게 확인하는 과정이__ 필요하다.
 
 ## 문제 1. 다음을 명제식 형태로 쓰고 참인지 거짓인지 판단하시오
 
-<i class="far fa-sticky-note"></i> **Tip:** You can find these posts in your project to see the raw code and learn from there.
-{: .notice--info}
+<i class="far fa-sticky-note"></i> **1번:** 만약 0이 홀수라면, 미국에서 2080년 월드컵이 열린다.
+{: .notice--primary}
 {: .text-justify}
+
+
+<i class="far fa-sticky-note"></i> **2번:** 만약 1989382793827489가 Prime Number라면, 2는 짝수이다.
+{: .notice--primary}
+{: .text-justify}
+
+
+![](/assets/img/ct/1.jpg)
