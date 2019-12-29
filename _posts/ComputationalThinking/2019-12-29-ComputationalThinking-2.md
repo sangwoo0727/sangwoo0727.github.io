@@ -28,7 +28,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/1912291.jpg)
+![](/assets/img/ct/1912291.png)
 
 ## 문제 2. 다음 명제들이 모순명제라는 것을 진리표를 이용해서 보이시오.
 
@@ -44,9 +44,9 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/1912292.jpg)
+![](/assets/img/ct/1912292.png)
 
-![](/assets/img/ct/1912293.jpg)
+![](/assets/img/ct/1912293.png)
 
 ## 문제 3. 다음 명제의 쌍 들에 대해서 두 명제가 동등한지를 진리표를 이용해 확인하시오.
 
@@ -58,7 +58,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/1912294.jpg)
+![](/assets/img/ct/1912294.png)
 
 ## 문제 4. 명제식의 변형을 통하여 다음 명제를 간소화하시오.
 
@@ -70,7 +70,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/1912295.jpg)
+![](/assets/img/ct/1912295.png)
 
 ## 문제 5. 다음 명제들이 참인지 확인하시오. 단 R은 실수의 집합을 의미하고, Z는 정수의 집합을 의미한다.
 
@@ -90,7 +90,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/1912296.jpg)
+![](/assets/img/ct/1912296.png)
 
 ## 문제 6
 
@@ -98,7 +98,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/1912297.jpg)
+![](/assets/img/ct/1912297.png)
 
 ## 문제 7
 
@@ -106,7 +106,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/1912298.jpg)
+![](/assets/img/ct/1912298.png)
 
 ## 문제 8
 
@@ -114,7 +114,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/1912299.jpg)
+![](/assets/img/ct/1912299.png)
 
 ## 문제 9
 
@@ -122,7 +122,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/19122910.jpg)
+![](/assets/img/ct/19122910.png)
 
 ## 문제 10
 
@@ -130,7 +130,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/19122911.jpg)
+![](/assets/img/ct/19122911.png)
 
 ## 문제 11
 
@@ -138,7 +138,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/19122912.jpg)
+![](/assets/img/ct/19122912.png)
 
 ## 문제 12
 
@@ -146,7 +146,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/19122913.jpg)
+![](/assets/img/ct/19122913.png)
 
 ## 문제 13
 
@@ -154,7 +154,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/19122914.jpg)
+![](/assets/img/ct/19122914.png)
 
 ## 문제 14
 
@@ -162,7 +162,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/19122915.jpg)
+![](/assets/img/ct/19122915.png)
 
 ## 출처
 
