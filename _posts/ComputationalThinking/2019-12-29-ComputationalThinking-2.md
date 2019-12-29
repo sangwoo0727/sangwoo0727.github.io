@@ -156,6 +156,14 @@ toc_sticky: true
 
 ![](/assets/img/ct/19122914.jpg)
 
+## 문제 14
+
+<i class="far fa-sticky-note"></i> **1번 :**  어떤 자연수를 제곱하여도, 그 결과를 3으로 나눈 나머지는 2가 아님을 증명하라.
+{: .notice--primary}
+{: .text-justify}
+
+![](/assets/img/ct/19122915.jpg)
+
 ## 출처
 
 * [SW Expert Academy](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPCwCKAAPw5UW6&subjectId=AV1lGbkqAAQCFAb_)
