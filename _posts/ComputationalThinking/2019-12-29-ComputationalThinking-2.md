@@ -162,7 +162,7 @@ toc_sticky: true
 {: .notice--primary}
 {: .text-justify}
 
-![](/assets/img/ct/19122915.png)
+![](/assets/img/ct/19122915.jpg)
 
 ## 출처
 
