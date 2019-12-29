@@ -92,75 +92,39 @@ toc_sticky: true
 
 ![](/assets/img/ct/1912296.png)
 
-## 문제 6
-
-<i class="far fa-sticky-note"></i> **1번 :**  n이 짝수이면, 3n+5는 홀수임을 증명하라.
-{: .notice--primary}
-{: .text-justify}
+## 문제 6. n이 짝수이면, 3n+5는 홀수임을 증명하라.
 
 ![](/assets/img/ct/1912297.png)
 
-## 문제 7
-
-<i class="far fa-sticky-note"></i> **1번 :**  n이 홀수이면, n^2+n은 짝수임을 증명하라.
-{: .notice--primary}
-{: .text-justify}
+## 문제 7. n이 홀수이면, n^2+n은 짝수임을 증명하라.
 
 ![](/assets/img/ct/1912298.png)
 
-## 문제 8
-
-<i class="far fa-sticky-note"></i> **1번 :**  m이 짝수이고, n이 홀수이면, 2m+3n은 홀수임을 증명하라.
-{: .notice--primary}
-{: .text-justify}
+## 문제 8. m이 짝수이고, n이 홀수이면, 2m+3n은 홀수임을 증명하라.
 
 ![](/assets/img/ct/1912299.png)
 
-## 문제 9
-
-<i class="far fa-sticky-note"></i> **1번 :**  자연수 n에 대해, n^2+5가 홀수이면, n은 짝수임을 증명하라.
-{: .notice--primary}
-{: .text-justify}
+## 문제 9. 자연수 n에 대해, n^2+5가 홀수이면, n은 짝수임을 증명하라.
 
 ![](/assets/img/ct/19122910.png)
 
-## 문제 10
-
-<i class="far fa-sticky-note"></i> **1번 :**  n^2이 짝수이면, n은 짝수임을 증명하라.
-{: .notice--primary}
-{: .text-justify}
+## 문제 10. n^2이 짝수이면, n은 짝수임을 증명하라.
 
 ![](/assets/img/ct/19122911.png)
 
-## 문제 11
-
-<i class="far fa-sticky-note"></i> **1번 :**  자연수 n에 대해, n^2+5n+3은 항상 홀수임을 증명하라.
-{: .notice--primary}
-{: .text-justify}
+## 문제 11. 자연수 n에 대해, n^2+5n+3은 항상 홀수임을 증명하라.
 
 ![](/assets/img/ct/19122912.png)
 
-## 문제 12
-
-<i class="far fa-sticky-note"></i> **1번 :**  n^2이 3의 배수이면, n은 3의 배수임을 증명하라.
-{: .notice--primary}
-{: .text-justify}
+## 문제 12. n^2이 3의 배수이면, n은 3의 배수임을 증명하라.
 
 ![](/assets/img/ct/19122913.png)
 
-## 문제 13
-
-<i class="far fa-sticky-note"></i> **1번 :**  n이 홀수이면, n^2을 8로 나눈 나머지는 1임을 증명하라. 
-{: .notice--primary}
-{: .text-justify}
+## 문제 13. n이 홀수이면, n^2을 8로 나눈 나머지는 1임을 증명하라.
 
 ![](/assets/img/ct/19122914.png)
 
-## 문제 14
-
-<i class="far fa-sticky-note"></i> **1번 :**  어떤 자연수를 제곱하여도, 그 결과를 3으로 나눈 나머지는 2가 아님을 증명하라.
-{: .notice--primary}
-{: .text-justify}
+## 문제 14.어떤 자연수를 제곱하여도, 그 결과를 3으로 나눈 나머지는 2가 아님을 증명하라.
 
 ![](/assets/img/ct/19122915.jpg)
 
