@@ -74,7 +74,6 @@ let a = [1,2,3];
 console.log(a.toString()); // "1,2,3"
 ```
 
-
 ## 추상 연산 - JSON 문자열화
 
 ToString은 JSON.stringify() 유틸리티를 사용하여 어떤 값을 JSON 문자열로 직렬화하는 문제와도 연관된다.
