@@ -1,9 +1,9 @@
 ---
 title: "스마트폰에서도 커밋확인 - GitJet"
 categories:
-  - daily
+  - Daily
 tags:
-  - daily
+  - Daily
 comments:
   - true
 toc: true
