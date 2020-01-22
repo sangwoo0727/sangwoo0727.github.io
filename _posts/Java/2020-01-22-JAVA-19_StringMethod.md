@@ -45,6 +45,13 @@ System.out.println(s4); //FreshCoffee & Bread
 
 s4 역시 가능한 이유는 큰따옴표를 이용한 문자열의 표현은 String 인스턴스의 생성으로 이어지고, 이 문자열의 위치에 생성된 인스턴스의 참조 값이 반환된다.
 
+또한 concat 메서드는 연결하여 호출을 할 수 있다.
+
+```java
+String str = "AB".concat("CD").concat("EF");
+System.out.println(str); // "ABCDEF"
+```
+
 ## 문자열 일부 추출하기 : Substring
 아래의 메소드를 이용하면 문자열의 뒷부분을 별도의 문자열로 추출할 수 있다.
 
@@ -144,6 +151,70 @@ String str = "age: "+20;
 이건 컴파일 오류가 발생한다.
 
 따라서 위의 문장은 String str = "age: ".concat(String.valueOf(17));로 처리된다.
+
+## 문자열 결합의 최적화
+아래 코드는 자바 컴파일러가 어떻게 처리할까?
+
+```java
+String name = "<이름>" + 25 + '.' + "강상우";
+```
+
+앞에서 공부한 내용을 바탕으로 생각을 해보면 아래와 같을 것이다.
+
+```java
+String name = "<이름>".concat(String.valueOf(25)).concat(String.valueOf('.')).concat("강상우");
+```
+
+이렇게 실행하여도 문제는 없지만, __기본 자료형의 값을 문자열로 변환하는 과정을 여러 번 거쳐야 한다__ 는 문제가 생긴다.
+
+기본 자료형의 값을 문자열로 변환하는 일은 __인스턴스의 생성__ 으로 이어지고, 성능에 영향을 미치기 때문.
+
+이러한 문제를 해결하기 위해 StringBuilder라는 클래스가 제공된다. 
+
+StringBuilder 클래스로 문자열을 구성하면 기본 자료형의 값을 문자열로 변환할 필요도 없고, 인스턴스 생성도 일어나지 않는다. 
+
+## StringBuilder 클래스
+StringBuilder 클래스는 내부적으로 문자열을 저장하기 위한 메모리 공간을 지니고, String 클래스의 메모리 공간과 다르게 문자를 추가하거나 삭제하는 것이 가능하다.
+
+수정하면서 유지해야 할 문자열이 있다면, StringBuilder에 담아서 관리하는 것이 효율적이다.
+
+<i class="far fa-sticky-note"></i> **public StringBuilder append(int i) :** 기본 자료형 데이터를 문자열 내용에 추가   
+{: .notice--info}
+{: .text-justify}
+
+
+<i class="far fa-sticky-note"></i> **public StringBuilder delete(int start, int end) :** 인덱스 start에서부터 end이전까지의 내용을 삭제 
+{: .notice--info}
+{: .text-justify}
+
+
+<i class="far fa-sticky-note"></i> **public StringBuilder insert(int offset, String str) :** 인덱스 offset의 위치에 str에 전달된 문자열 추가 
+{: .notice--info}
+{: .text-justify}
+
+<i class="far fa-sticky-note"></i> **public StringBuilder replace(int start, int end, String str) :** 인덱스 start에서부터 end이전까지의 내용을 str 문자열로 대체 
+{: .notice--info}
+{: .text-justify}
+
+<i class="far fa-sticky-note"></i> **public StringBuilder reverse() :** 저장된 문자열의 내용을 뒤집는다. 
+{: .notice--info}
+{: .text-justify}
+
+<i class="far fa-sticky-note"></i> **public String substring(int start, int end) :** 인덱스 start에서부터 end이전까지의 내용만 담은 String 인스턴스의 생성 및 반환
+{: .notice--info}
+{: .text-justify}
+
+<i class="far fa-sticky-note"></i> **public String toString() :** 저장된 문자열의 내용을 담은 String 인스턴스의 생성 및 반환
+{: .notice--info}
+{: .text-justify}
+
+추가로, StringBuilder 인스턴스 내부에는 문자열 관리를 위한 메모리 공간이 존재하는데, 인스턴스 생성 과정에서 이 크기를 지정해줄 수 있다.
+
+StringBuilder sb = new StringBuilder(64);
+
+StringBuilder 인스턴스는 메모리 공간을 스스로 관리해서 부족하면 그 공간을 늘리지만 사용 계획에 따라 적절한 크기를 초기에 만들면 그만큼의 성능 향상을 기대할 수 있다.
+
+
 
 ## 출처
 __윤성우의 열혈 Java 프로그래밍, 오렌지 미디어__
