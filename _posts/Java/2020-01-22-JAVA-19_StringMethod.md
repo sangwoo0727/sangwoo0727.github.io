@@ -208,7 +208,7 @@ StringBuilder 클래스는 내부적으로 문자열을 저장하기 위한 메�
 {: .notice--info}
 {: .text-justify}
 
-추가로, StringBuilder 인스턴스 내부에는 문자열 관리를 위한 메모리 공간이 존재하는데, 인스턴스 생성 과정에서 이 크기를 지정해줄 수 있다.
+추가로, StringBuilder 인스턴스 내부에는 문자열 관리를 위한 메모리 공간이 존재하는데, 인스턴스 생성 과정에서 아래와 같은 방식으로 크기를 지정해줄 수 있다.
 
 StringBuilder sb = new StringBuilder(64);
 
