@@ -5,6 +5,7 @@ categories:
 tags:
   - BruteForce
   - Algorithm
+read_time: false
 comments:
   - true
 toc: true
