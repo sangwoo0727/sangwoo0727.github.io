@@ -41,7 +41,67 @@ __Person p = new Student(...);__
 
 이때, 오버라이딩은 __무효화 시키다__ 의 뜻으로 해석된다.
 
+Student 클래스가 Person클래스를 상속하면서, Person에 정의된 메소드를 오버라이딩시키기 위해서는 Student 클래스의 메소드와 Person의 메소드는 __메소드 이름, 메소드의 반환형, 메소드의 매개변수 선언__ 이 세가지가 같아야 메소드 오버라이딩이 성립한다.
 
+```java
+class Person{
+  public void show(){
+    System.out.println("I am Person");
+  }
+}
 
+class Student extends Person{
+  public void show(){
+    System.out.println("I am Student");
+  }
+}
 
+Person p = new Student();
+p.show(); //이 경우, 앞에 배운 바에 의하면 p는 Person의 참조변수이므로, Student 인스턴스를 참조하고 있는 상황이더라도 Person의 show 메소드가 호출되어야 한다. 하지만 Person의 show 메소드는 오버라이딩 되었다. 이 경우 Student의 show 메소드가 대신 호출된다.
+```
 
+그렇다면 오버라이딩된 메소드 호출은 불가능한걸까? 아직까지 공부를 많이 안해서 그런지 오버라이딩을 왜 쓰는건지 도통 헷갈리기만 하고 이해가 가질 않긴한다..
+
+아무튼 오버라이딩된 메소드를 호출하는 방법은 간단했다.
+
+이전에 자바를 공부하면서 우리는 super 키워드를 통해 상위 클래스의 생성자를 호출하였다. 이번에도 역시 super다.
+
+```java
+class Student extends Person{
+  public void show(){
+    super.show(); //오버라이딩된 Person의 show 메소드 호출.
+    System.out.println("I am Student");
+  }
+}
+```
+
+메소드 오버라이딩이 아닌 인스턴스 변수나 클래스 변수의 오버라이딩도 가능할까?
+
+먼저 책에서는 __상위 클래스에 선언된 변수와 동일한 이름의 변수를 하위 클래스에서 선언하는 일은 피해야 한다__ 고 하고있다.
+
+즉, 이런 코드 자체를 만들지 말라는 것이다.
+
+문법적인 결론으로 말하면, 변수는 오버라이딩되지 않고, 참조 변수의 형에 따라서 접근하는 변수가 결정된다.
+
+```java
+Student s = new Student();
+s.name = //.. Student의 name에 접근
+
+Person p = new Student();
+p.name = //.. Person의 name에 접근
+```
+
+## instanceof 연산자
+instanceof의 연산자는 다양하게 활용할 수 있지만, 이 포스팅에선 어떤 역할을 하는 연산자인지만 확인하고 넘어가겠다.
+
+자세한 내용은 책이나 실습을 통해 확인하길 바란다.
+
+연산자 instanceof는 참조변수가 참조하는 인스턴스의 __클래스__ 나 참조하는 인스턴스가 __상속하는 클래스__ 를 묻는 연산자이다.
+
+if(s instanceof Student) //s가 참조하는 인스턴스가 Student의 인스턴스이거나 Student가 상속하는 클래스의 인스턴스냐
+if(s instanceof Person)
+
+## 출처
+__윤성우의 열혈 Java 프로그래밍, 오렌지 미디어__
+
+__[코딩의 시작 TCP school](http://tcpschool.com/java/java_inheritance_overriding)__
