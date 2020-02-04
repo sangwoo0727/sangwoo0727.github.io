@@ -1,5 +1,5 @@
 ---
-title: "[SWEA6808] 규영이오 인영이의 카드게임"
+title: "[SWEA6808] 규영이와 인영이의 카드게임"
 categories:
   - Algorithm
 tags:
