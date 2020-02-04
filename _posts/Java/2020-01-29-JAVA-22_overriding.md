@@ -101,6 +101,17 @@ instanceof의 연산자는 다양하게 활용할 수 있지만, 이 포스팅�
 if(s instanceof Student) //s가 참조하는 인스턴스가 Student의 인스턴스이거나 Student가 상속하는 클래스의 인스턴스냐
 if(s instanceof Person)
 
+## 클래스와 메소드의 final 선언
+어떤 클래스를 다른 클래스가 상속하는 것을 원치 않는다면, class 선언에 있어서 final 선언을 붙히면 된다.
+
+```java
+public final class Person{ //다른 클래스는 Person 클래스를 상속할 수 없음.
+  //...
+}
+```
+
+
+
 ## 출처
 __윤성우의 열혈 Java 프로그래밍, 오렌지 미디어__
 
