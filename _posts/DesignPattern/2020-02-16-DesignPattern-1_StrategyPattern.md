@@ -42,7 +42,7 @@ toc_sticky: true
 ## 출처
 __Head First Design Patterns 스토리가 있는 패턴 학습법, 에릭 프리먼 외 다수__
 
-([Design Patter] 스트래티지 패턴이란)[https://gmlwjd9405.github.io/2018/07/06/strategy-pattern.html]
+[[Design Patter] 스트래티지 패턴이란](https://gmlwjd9405.github.io/2018/07/06/strategy-pattern.html)
 
-(개발이 하고 싶어요)[https://hyeonstorage.tistory.com/146]
+[개발이 하고 싶어요](https://hyeonstorage.tistory.com/146)
 
