@@ -1,5 +1,5 @@
 ---
-title: "[디자인패턴] 1.스트래티지 패턴"
+title: "[디자인패턴] 1.스트래티지 패턴(Strategy Pattern)"
 categories:
   - DesignPattern
 tags:
@@ -7,7 +7,7 @@ tags:
 toc: true
 toc_sticky: true
 ---
-* 이론에 대해 정리를 해놓은 포스팅입니다. 이에 대한 간단한 실습 자료 구경을 원하시면 아래를 클릭해주세요.
+* 이론에 대해 정리를 해놓은 포스팅입니다. 이에 대한 간단한 실습 자료 원하시면 아래를 클릭해주세요.
 
 * [스트래티지 패턴 실습자료](https://github.com/SSID-dev/designpattern) 
 
