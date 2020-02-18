@@ -68,7 +68,7 @@ public class A_TwoRabbits {
 
 ## B. Longest Palindrome
 
-![](/assets/img/CodeForce/20200217_2.png)
+![](/assets/img/CodeForce/20200217_3.png)
 
 문자열 길이가 m으로 같은 문자열들이 n개 주어진다.
 
