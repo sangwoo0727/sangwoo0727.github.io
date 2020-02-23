@@ -165,15 +165,15 @@ __Unchecked Exception__ : Error, Runtime Exception
 즉, Error 클래스를 상속하는 예외나 RuntimeException클래스를 상속하는 예외의 경우 예외의 처리는 선택이다. 그러나 (RuntimeException을 상속하지 않는) Exception 클래스를 상속하는 예외는 try-catch문으로 처리하거나 다른 영역으로 넘긴다고 반드시 명시해야 한다.
 
 ## RuntimeException을 상속하는 예외 클래스
-* ArithmeticException : 0으로 나누기를 실행하였을 때.
+ArithmeticException : 0으로 나누기를 실행하였을 때.
 
-* NullPointerException : 객체를 생성하지 않고 사용했을 때.
+NullPointerException : 객체를 생성하지 않고 사용했을 때.
 
-* NegativeArraySizeException : 배열의 크기를 음수 값을 주었을 때.
+NegativeArraySizeException : 배열의 크기를 음수 값을 주었을 때.
 
-* ArrayIndexOutOfBoundsException : 배열의 크기를 벗어났을 때.
+ArrayIndexOutOfBoundsException : 배열의 크기를 벗어났을 때.
 
-* SequrityException : 보안에 위배되는 기능을 수행할 때.
+SequrityException : 보안에 위배되는 기능을 수행할 때.
 
 
 ## Exception Handling
