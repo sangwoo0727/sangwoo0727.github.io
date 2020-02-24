@@ -89,6 +89,7 @@ public class Main {
     static StringBuilder sb = new StringBuilder();
     static BufferedReader br = null;
     static StringTokenizer st = null;
+
 	public static void main(String[] args) throws Exception {
 		br = new BufferedReader(new InputStreamReader(System.in));
 		st = null;
@@ -102,14 +103,13 @@ public class Main {
 			int n = s.length()-1;
 			int pidx = n;
 			for(int i=n-1; i>=0; i--) {
-                if(i==0){
-                    if(s.charAt(0)=='A' && p-a>=0) {
-					    pidx = 0;
-				    }else if(s.charAt(0)=='B' && p-b>=0){
-                        pidx = 0;
-				    }
-                }
-				else if(s.charAt(i)!=s.charAt(i-1)) {
+				if(i==0) {
+					if(s.charAt(i)=='A' && p-a>=0) {
+						pidx = 0;
+					}else if(s.charAt(i)=='B' && p-b>=0) {
+						pidx = 0;
+					}
+				}else if(s.charAt(i)!=s.charAt(i-1)) {
 					if(s.charAt(i)=='B') {
 						if(p-b>=0) {
 							p-=b;
@@ -123,6 +123,7 @@ public class Main {
 					}
 				}
 			}
+			
 			sb.append(pidx+1).append("\n");
 		}
 		System.out.println(sb);
