@@ -80,7 +80,6 @@ AAABBAAA 일 경우, a요금을 내고 i=1~4까지 갈 수 있다. 그리고 b�
 
 같이 시험 본 분 이야기 들어보니깐, 앞에서부터 풀면 반례가 생기는 것 같더라.
 
-
 ```java
 import java.util.*;
 import java.io.*;
@@ -90,7 +89,6 @@ public class Main {
     static StringBuilder sb = new StringBuilder();
     static BufferedReader br = null;
     static StringTokenizer st = null;
-
 	public static void main(String[] args) throws Exception {
 		br = new BufferedReader(new InputStreamReader(System.in));
 		st = null;
@@ -101,7 +99,7 @@ public class Main {
 			b = Integer.parseInt(st.nextToken());
 			p = Integer.parseInt(st.nextToken());
 			String s = br.readLine();
-            int n = s.length()-1;
+			int n = s.length()-1;
 			int pidx = n;
 			for(int i=n-1; i>=0; i--) {
                 if(i==0){
