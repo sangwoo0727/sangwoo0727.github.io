@@ -196,6 +196,6 @@ throw new ValueException() 의 문장으로 예외를 발생시킨다.
 ## 출처
 __윤성우의 열혈 Java 프로그래밍, 오렌지 미디어__
 
-[[JAVA] throw와 throws의 차이점](https://vitalholic.tistory.com/246)
+__[[JAVA] throw와 throws의 차이점](https://vitalholic.tistory.com/246)__
 
-[[JAVA] 자바 예외처리 Try Catch문 사용법 - 코딩팩토리](https://coding-factory.tistory.com/280)
+__[[JAVA] 자바 예외처리 Try Catch문 사용법 - 코딩팩토리](https://coding-factory.tistory.com/280)__
