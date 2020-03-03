@@ -82,6 +82,7 @@ public class SWEA1907_모래성쌓기 {
 					if(inner(nn,nm)) {
 						bd[nn][nm] -= 1;	
 						if(bd[nn][nm]=='0') {
+                            bd[nn][nm] = '.';
 							q.offer(new Node(nn,nm));
 						}
 					}
