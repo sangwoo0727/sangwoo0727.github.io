@@ -40,7 +40,7 @@ __[TCPSchool.com - DTD 개요](http://tcpschool.com/xml/xml_dtd_intro)__
 
 XML에 대한 예시를 살펴보며, XML의 구조를 익혀보자.
 
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <People>
 	<Person>
