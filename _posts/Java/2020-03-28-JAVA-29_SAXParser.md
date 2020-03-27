@@ -16,7 +16,7 @@ toc_sticky: true
 
 SAX 파서에 대해 다시 한 번 알아보자.
 
-## SOX Parser
+## SAX Parser
 Simple API for XML Parser의 약어로, 자바 API에서 제공한다.
 
 기본적으로 SAX 파서는 문서를 순회하며 event가 발생하면서 순차적으로 파싱을 하게 된다. 
