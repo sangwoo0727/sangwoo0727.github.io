@@ -199,6 +199,8 @@ public class PersonSaxTest {
 }
 ```
 
+file 대신, api 키로 만들어진 uri 주소를 넣어도 가능하다.
+
 출력을 통해 xml 파일을 원하는 대로 파싱하여, 출력한 결과를 확인 할 수 있다.
 
 ![](/assets/img/java/20200328_1.png)
