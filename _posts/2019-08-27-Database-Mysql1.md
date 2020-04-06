@@ -1,7 +1,7 @@
 ---
 title: "[MySQL] 계정 생성 및 권한 부여"
 categories:
-  - Database
+  - DataBase
 tags:
   - MySQL
 comments:
