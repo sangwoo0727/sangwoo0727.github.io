@@ -48,8 +48,7 @@ public class Kakao_2019겨울인턴십_4_호텔방배정 {
         }
         return answer;
     }
-    
-	static long find(long n) {
+    static long find(long n) {
 		if(!map.containsKey(n) || map.get(n)==n) {
 			map.put(n, n);
 			return n;			
@@ -58,7 +57,7 @@ public class Kakao_2019겨울인턴십_4_호텔방배정 {
 			return map.get(n);
 		}
 	}
-	static void merge(long n, long m) {
+    static void merge(long n, long m) {
 		n = find(n);
 		m = find(m);
 		if(n<m) map.put(n, m);
