@@ -38,7 +38,7 @@ __풀이 시간: 1시간__
 import java.util.*;
 
 public class Kakao_2019겨울인턴십_4_호텔방배정 {
-	static HashMap<Long, Long> map = new HashMap<>();
+    static HashMap<Long, Long> map = new HashMap<>();
 	public long[] solution(long k, long[] room_number) {
 		long[] answer = new long[room_number.length];
         for(int i=0; i<room_number.length; i++) {
@@ -48,6 +48,7 @@ public class Kakao_2019겨울인턴십_4_호텔방배정 {
         }
         return answer;
     }
+    
 	static long find(long n) {
 		if(!map.containsKey(n) || map.get(n)==n) {
 			map.put(n, n);
