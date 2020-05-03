@@ -39,7 +39,7 @@ import java.util.*;
 
 public class Kakao_2019겨울인턴십_4_호텔방배정 {
 	static HashMap<Long, Long> map = new HashMap<>();
-	public static long[] solution(long k, long[] room_number) {
+	public long[] solution(long k, long[] room_number) {
 		long[] answer = new long[room_number.length];
         for(int i=0; i<room_number.length; i++) {
         	long n = room_number[i];
