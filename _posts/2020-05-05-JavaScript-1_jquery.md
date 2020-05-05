@@ -36,11 +36,10 @@ DOM API와 브라우저 지원이 개선되면서 순수 자바스크립트(바�
 
 아래 중 어떤 것을 사용해도 상관없다.
 
-```
 <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-```
+
 
 ## DOM 기다리기
 먼저 제이쿼리의 문법에 대해 간단히 알아보겠다.
