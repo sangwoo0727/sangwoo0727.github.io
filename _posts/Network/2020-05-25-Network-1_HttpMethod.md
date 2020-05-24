@@ -2,6 +2,7 @@
 title: "[네트워크] HTTP 메소드, 안정성,멱등성,캐시가능성"
 categories:
   - Network
+read_time: false
 tags:
   - Network
 comments:
