@@ -1,10 +1,10 @@
 ---
 title: "[디자인 패턴] 싱글톤 패턴(Singleton Pattern)"
 categories:
-  - Network
+  - DesignPattern
 read_time: false
 tags:
-  - Network
+  - DesignPattern
 comments:
   - true
 toc: true
