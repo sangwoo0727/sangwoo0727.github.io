@@ -76,7 +76,7 @@ public class Main {
 }
 ```
 
-![](/assets/img/DesignPattern/20200525.png)
+![](/assets/img/Designpattern/20200525.png)
 
 ## 기본적인 싱글톤 패턴의 문제점 -  자원 낭비
 위에서 만든 디자인 패턴 방법을 __Eager initilization__ 이라고 한다.
