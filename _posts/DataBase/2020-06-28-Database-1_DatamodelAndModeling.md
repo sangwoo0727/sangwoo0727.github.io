@@ -6,6 +6,7 @@ tags:
   - MySQL
 comments:
   - true
+read_time: false
 toc: true
 toc_sticky: true
 ---
