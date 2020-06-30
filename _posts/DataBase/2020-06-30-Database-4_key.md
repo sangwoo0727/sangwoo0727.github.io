@@ -3,7 +3,7 @@ title: "[데이터베이스] 논리적 데이터 모델 - 키의 종류"
 categories:
   - DataBase
 tags:
-  - MySQL
+  - DataBase
 comments:
   - true
 read_time: false

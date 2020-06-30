@@ -3,7 +3,7 @@ title: "[데이터베이스] 데이터 모델링과 데이터 모델"
 categories:
   - DataBase
 tags:
-  - MySQL
+  - DataBase
 comments:
   - true
 read_time: false

@@ -3,7 +3,7 @@ title: "[데이터베이스] 개체-관계 모델"
 categories:
   - DataBase
 tags:
-  - MySQL
+  - DataBase
 comments:
   - true
 read_time: false
