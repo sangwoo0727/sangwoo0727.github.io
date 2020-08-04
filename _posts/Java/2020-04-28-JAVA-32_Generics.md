@@ -211,7 +211,7 @@ public static Machine<T> makeMachine(T o){...}
 즉, 아래와 같은 코드가 된다.
 
 ```java
-public static <T> Machine<T> makeMachine<T o>{
+public static <T> Machine<T> makeMachine(T o){
     Machine<T> machine = new Machine<T>();
     machine.set(o);
     return machine;
