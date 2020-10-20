@@ -47,9 +47,9 @@ def two_sum(self, nums: List[int], target: int) -> List[int]:
 ```
 
 
- 2중 포문을 이용해 풀기엔 nums 리스트의 크기가 10^5 였다.
+* 2중 포문을 이용해 풀기엔 nums 리스트의 크기가 10^5 였다.
 
- 답은 무조건 1개가 존재함이 보장되므로, store라는 딕셔너리를 만들어서, num값 : 인덱스번호로 저장을 해나갔다.
+* 답은 무조건 1개가 존재함이 보장되므로, store라는 딕셔너리를 만들어서, num값 : 인덱스번호로 저장을 해나갔다.
 
 ![](/assets/img/LeetCode/LeetCode_1_1.jpg)
 
