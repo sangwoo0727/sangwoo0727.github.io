@@ -10,13 +10,14 @@ comments:
 toc: true
 toc_sticky: true
 ---
-[![](/assets/img/LeetCode.jpeg){:height = "70%"}](https://leetcode.com/problems/two-sum/)
+[![](/assets/img/LeetCode.jpeg){:width = "100%"}](https://leetcode.com/problems/two-sum/)
 
 
 파이썬 공부를 시작하면서, LeetCode 문제들을 하나씩 풀어볼 예정이다. 첫번째 문제는 1. Two Sum 문제이다.
 
 위의 이미지를 통해 문제를 확인할 수 있다.
 
+## Problem
 
  Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -28,11 +29,9 @@ toc_sticky: true
 Example :
 
 ````
-
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Output: Because nums[0] + nums[1] == 9, we return [0, 1].
-
 ````
 
 Solution :
