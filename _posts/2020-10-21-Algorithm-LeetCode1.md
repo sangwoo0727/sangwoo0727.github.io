@@ -10,7 +10,7 @@ comments:
 toc: true
 toc_sticky: true
 ---
-[![](/assets/img/LeetCode.jpeg)](https://leetcode.com/problems/two-sum/)
+<center>[![](/assets/img/LeetCode.jpeg)](https://leetcode.com/problems/two-sum/)</center>
 
 
 파이썬 공부를 시작하면서, LeetCode 문제들을 하나씩 풀어볼 예정이다. 첫번째 문제는 1. Two Sum 문제이다.
@@ -37,7 +37,7 @@ Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 Solution :
 
-```Python
+```python
 def two_sum(self, nums: List[int], target: int) -> List[int]:
     store: Dict[int, int] = {}
     for idx, num in enumerate(nums):
@@ -45,6 +45,7 @@ def two_sum(self, nums: List[int], target: int) -> List[int]:
             return [store[num], idx]
         store[target - num] = idx
 ```
+
 
 * 2중 포문을 이용해 풀기엔 nums 리스트의 크기가 10^5 였다.
 
