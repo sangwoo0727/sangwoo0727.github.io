@@ -10,7 +10,7 @@ comments:
 toc: true
 toc_sticky: true
 ---
-<center>[![](/assets/img/LeetCode.jpeg)](https://leetcode.com/problems/two-sum/)</center>
+[![](/assets/img/LeetCode.jpeg){:height = "70%"}](https://leetcode.com/problems/two-sum/)
 
 
 파이썬 공부를 시작하면서, LeetCode 문제들을 하나씩 풀어볼 예정이다. 첫번째 문제는 1. Two Sum 문제이다.
