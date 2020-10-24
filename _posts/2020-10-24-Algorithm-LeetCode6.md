@@ -88,4 +88,5 @@ class Solution:
 
 * 마지막엔 0번 numRow부터 문자열을 이어붙혀 출력하면 된다.
 
-![](/assets/img/LeetCode/LeetCode_6_1.jpg)
+
+![](/assets/img/LeetCode/LeetCode_6_1.png)
