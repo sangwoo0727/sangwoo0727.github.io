@@ -12,7 +12,7 @@ toc_sticky: true
 ---
 [![](/assets/img/LeetCode.jpeg){:width = "100%"}](https://leetcode.com/problems/reverse-integer)
 
-이번 포스팅에서는 6번 문제를 다룬다.
+이번 포스팅에서는 7번 문제를 다룬다.
 
 파이썬이 아직 익숙치 않아서 코드 부분에 대해 피드백할 부분이 있으면 언제든 댓글로 남겨주시면 감사드리겠습니다.
 
