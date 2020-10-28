@@ -13,9 +13,8 @@ toc_sticky: true
 
 [![](/assets/img/LeetCode.jpeg){:width = "100%"}](https://leetcode.com/problems/string-to-integer-atoi/)
 
-이번 포스팅에서는 8번 String to Integer(atoi) 문제를 다룬다.
-
-파이썬이 아직 익숙치 않아서 코드 부분에 대해 피드백할 부분이 있으면 언제든 댓글로 남겨주시면 감사드리겠습니다.
+* 이번 포스팅에서는 8번 String to Integer(atoi) 문제를 다룬다.
+* 파이썬이 아직 익숙치 않아서 코드 부분에 대해 피드백할 부분이 있으면 언제든 댓글로 남겨주시면 감사드리겠습니다.
 
 ## Problem
 * Implement atoi which converts a string to an integer.
@@ -27,8 +26,8 @@ toc_sticky: true
 ```
 Note:
  * Only the space character ' ' is considered a whitespace character.
-
- * Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. If the numerical value is out of the range of representable values, INT_MAX (231 − 1) or INT_MIN (−231) is returned.
+ * Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. 
+   If the numerical value is out of the range of representable values, INT_MAX (231 − 1) or INT_MIN (−231) is returned.
 ```
 
 __Example 1:__
@@ -36,14 +35,16 @@ __Example 1:__
 ```
 Input: str = "   -42"
 Output: -42
-Explanation: The first non-whitespace character is '-', which is the minus sign. Then take as many numerical digits as possible, which gets 42.
+Explanation: The first non-whitespace character is '-', which is the minus sign. 
+             Then take as many numerical digits as possible, which gets 42.
 ```
 
 __Example 2:__
 ```
 Input: str = "words and 987"
 Output: 0
-Explanation: The first non-whitespace character is 'w', which is not a numerical digit or a +/- sign. Therefore no valid conversion could be performed.
+Explanation: The first non-whitespace character is 'w', which is not a numerical digit or a +/- sign. 
+             Therefore no valid conversion could be performed.
 ```
 
 __Solution :__
