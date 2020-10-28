@@ -2,6 +2,7 @@
 title: "[Python] 리스트와 함수"
 categories:
   - Python
+read_time: false
 tags:
   - Python
 toc: true
@@ -20,9 +21,9 @@ Any data with state (attributes or value) and defined behavior (methods).
 Also the ultimate base class of any new-style class.
 ```
 
-* 출처 : [Python Glossary](https://docs.python.org/3/glossary.html)
-* 객체는 어떠한 속성값과 행동을 가지고 있는 데이터이다.
-* 파이썬에서는 모든 것들이 여러 속성과 행동을 가지고 있는 객체이다.
+* __출처 : [Python Glossary](https://docs.python.org/3/glossary.html)__
+* 객체는 __어떠한 속성값과 행동을__ 가지고 있는 데이터이다.
+* 파이썬에서는 __모든 것들이 여러 속성과 행동을 가지고 있는 객체__ 이다.
 * 속성 값과 행동 즉, 데이터와 함수가 묶여서 존재하는 덩어리를 객체라고 한다.
 * 위에서 언급한 리스트형 변수 st 역시 객체이다.
 * 객체이므로, remove라는 행동 즉 메소드를 호출할 수 있는 것이다.
