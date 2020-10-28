@@ -56,7 +56,6 @@ class Solution:
         INT_MIN = -pow(2, 31)
 
         num = ''
-        flag = False
         for idx, c in enumerate(s):
             if c == ' ':
                 continue
