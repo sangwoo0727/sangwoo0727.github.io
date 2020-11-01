@@ -65,3 +65,27 @@ l1 = [1,2,3,4,5]
 l2 = [x+2 for x in l1 if x % 2] # if 조건절이 추가된 리스트 컴프리헨션
 ```
 
+## 리스트 컴프리헨션에 중첩 for문 들어가는 경우
+
+```python
+r1 = ['Black', 'White']
+r2 = ['Red','Blue','Green']
+r3 = []
+
+for t in r1:
+    for p in r2:
+        r3.append(t+p)
+
+print(r3) # ['BlackRed','BlackBlue','BlackGreen','WhiteRed', ...]
+```
+
+* 이러한 부분 역시 리스트 컴프리헨션으로 작성할 수 있다.
+
+```python
+r3 = [t+p for t in r1 for p in r2] # 중첩 for루프 형태의 리스트 컴프리헨션
+```
+
+## 출처
+* [제대로 파이썬](https://wikidocs.net/22805)
+* 열혈 파이썬 - 윤성우
+
