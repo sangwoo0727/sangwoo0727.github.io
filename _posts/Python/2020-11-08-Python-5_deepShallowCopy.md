@@ -106,4 +106,4 @@ print(user1[2] is user2[2])  # False
 
 ## 참조
 * 열혈 파이썬 - 윤성우
-* [견우와 직녀](https://ledgku.tistory.com/54)
+* [파이썬에서의 복사 얕은 복사와 깊은 복사](https://pinkwink.kr/1234)
