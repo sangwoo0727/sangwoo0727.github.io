@@ -118,7 +118,8 @@ for name,age in data:
 ```
 
 ## 출처
-
+* 열혈 파이썬 - 윤성우
+* [제대로 파이썬](https://wikidocs.net/22801)
 
 
 
