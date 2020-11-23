@@ -1,5 +1,5 @@
 ---
-title: "[Python] 파이썬 Dictionary setDefault 메소드와 defaultdict"
+title: "[Python] 파이썬 Dictionary setdefault 메소드와 defaultdict"
 categories:
   - Python
 read_time: false
