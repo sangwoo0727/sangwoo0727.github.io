@@ -16,8 +16,7 @@ toc_sticky: true
 * 대표적인 sequence type에는 list, tuple, range, str 등이 있다.
 * range 역시 값의 범위 정보를 저장하지만 범위 정보에도 시작과 끝이라는 순서가 존재한다.
 * sequence type에서 사용할 수 있는 opertations는 공식 문서를 참고하자.
-
-[docs.python.org](https://docs.python.org/3/library/stdtypes.html)
+* [docs.python.org](https://docs.python.org/3/library/stdtypes.html)
 
 ## Mapping Type
 
