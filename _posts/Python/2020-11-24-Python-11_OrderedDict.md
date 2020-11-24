@@ -20,7 +20,7 @@ toc_sticky: true
 * 딕셔너리의 저장 순서를 보장받을 수 있다.
 * 파이썬 공식문서의 정의를 보자.
 
-<i class="far fa-sticky-note"></i> ** OrderedDict : **  Return an instance of a dict subclass that has methods specialized for rearranging dictionary order.
+<i class="far fa-sticky-note"></i> **OrderedDict :**  Return an instance of a dict subclass that has methods specialized for rearranging dictionary order.
 {: .notice--primary}
 {: .text-justify}
 
@@ -72,7 +72,7 @@ print(od1 == od2)  # False
 * OrderedDict에는 popitem이라는 메소드가 있다.
 * 공식 문서의 정의를 먼저 살펴보자.
 
-<i class="far fa-sticky-note"></i> ** popitem(last=True) : **  The popitem() method for ordered dictionaries returns and removes a (key, value) pair. The pairs are returned in LIFO order if last is true or FIFO order if false.
+<i class="far fa-sticky-note"></i> **popitem(last=True) :**  The popitem() method for ordered dictionaries returns and removes a (key, value) pair. The pairs are returned in LIFO order if last is true or FIFO order if false.
 {: .notice--primary}
 {: .text-justify}
 
@@ -94,7 +94,7 @@ print(od1)  # OrderedDict([('eden', 30)])
 * 존재하는 해당 키를 딕셔너리의 맨 뒤로 옮기는 메소드이다.
 * 공식 문서의 정의로 보자.
 
-<i class="far fa-sticky-note"></i> ** move_to_end(ket, last=True) : **  Move an existing key to either end of an ordered dictionary. The item is moved to the right end if last is true (the default) or to the beginning if last is false. Raises KeyError if the key does not exist:
+<i class="far fa-sticky-note"></i> **move_to_end(ket, last=True) :**  Move an existing key to either end of an ordered dictionary. The item is moved to the right end if last is true (the default) or to the beginning if last is false. Raises KeyError if the key does not exist:
 {: .notice--primary}
 {: .text-justify}
 
