@@ -296,13 +296,18 @@ defaults:
       comments: true
       share: true
       related: true 
-  # _pages
+      sidebar:
+          nav: "docs"
+
+  # pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
-      layouts: single
-      author_profile: true        
+      layout: single
+      author_profile: false
+      sidebar:
+          nav: "docs"
 
 
       
