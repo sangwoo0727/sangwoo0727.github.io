@@ -5,19 +5,19 @@ main:
     url: /categories/
 
   
-docs:
-  - title: "Algorithm"
-    children:
-      - title: "알고리즘 풀이"
-        url: /categories/algorithm
-  - title: "Language"
-    children:
-      - title: "Java"
-        url: /categories/java
-      - title: "Python"
-        url: /categories/python
-      - title: "JavaScript"
-        url: /categories/javascript
+# docs:
+#   - title: "Algorithm"
+#     children:
+#       - title: "알고리즘 풀이"
+#         url: /categories/algorithm
+#   - title: "Language"
+#     children:
+#       - title: "Java"
+#         url: /categories/java
+#       - title: "Python"
+#         url: /categories/python
+#       - title: "JavaScript"
+#         url: /categories/javascript
   
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
