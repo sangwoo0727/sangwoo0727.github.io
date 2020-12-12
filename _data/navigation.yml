@@ -18,13 +18,6 @@ docs:
         url: /categories/python
       - title: "JavaScript"
         url: /categories/javascript
-  - title: "Computer Science"
-      - title: "DataStructure"
-        url: /categories/datastructure
-      - title: "DataBase"
-        url: /categories/database
-      - title: "Network"
-        url: /categories/network
   
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
