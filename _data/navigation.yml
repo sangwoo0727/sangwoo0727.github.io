@@ -1,11 +1,30 @@
 
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Category"
     url: /categories/
 
+  
+docs:
+  - title: "Algorithm"
+    children:
+      - title: "알고리즘 풀이"
+        url: /categories/algorithm
+  - title: "Language"
+    children:
+      - title: "Java"
+        url: /categories/java
+      - title: "Python"
+        url: /categories/python
+      - title: "JavaScript"
+        url: /categories/javascript
+  - title: "Computer Science"
+      - title: "DataStructure"
+        url: /categories/datastructure
+      - title: "DataBase"
+        url: /categories/database
+      - title: "Network"
+        url: /categories/network
   
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
