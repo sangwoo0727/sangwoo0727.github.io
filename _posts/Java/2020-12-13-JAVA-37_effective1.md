@@ -1,5 +1,5 @@
 ---
-title: "[Effective Java] 1. 생성자 대신 정적 팩터리 메소드를 고려하라"
+title: "이펙티브 자바 - 1 생성자 대신 정적 팩터리 메소드를 고려하라"
 categories:
   - Java
 read_time: false
