@@ -160,8 +160,31 @@ public static <E extends Enum<E>> EnumSet<E> noneOf(Class<E> elementType) {
 ## 정적 팩토리 메소드의 단점
 
 ### 1. 상속을 하려면 public이나 protected 생성자가 필요하니, 정적 팩토리 메소드만 제공하면 하위 클래스를 만들 수 없다.
+* 생성자로 인스턴스를 생성하는 방법을 사용자에게 제공하지 않고, 정적 팩토리 메소드만 제공한다는 말은
+* public이나 protected 등의 사용자에게 공개되는 생성자를 숨기겠다는 말이다.
+* 즉, private 접근제어자만 사용하여 클래스 내부에서 인스턴스를 생성하여, 정적 팩토리 메소드의 반환값으로 인스턴스를 주겠단 의미이다.
+* 간단한 코드를 보자.
 
-> 추후 작성 예정
+```java
+// 편하게 보기 위해 코드를 한 곳에 적었다.
+
+public class Car {
+    public static Car getInstance() {
+        return new Car();
+    }
+    private Car() {}
+}
+
+public class SportCar extends Car {
+    // 에러 발생
+    // There is no default constructor available in 'Car'
+}
+```
+
+* 즉, 이런 경우에 하위 클래스를 만들 수 없게 된다.
+
+> 하지만, 이 제약은 상속보다 컴포지션을 사용(item 18)하도록 유도하고 불변 타입으로 만들려면 이 제약을 지켜야한다는 점에서 오히려 장점일 수 있다.
+
 
 ### 2. 정적 팩토리 메소드는 프로그래머가 찾기 어렵다.
 * 생성자와 다르게, 정적 팩토리 메소드는 명확하게 설명이 드러나지 않는다.
