@@ -20,7 +20,6 @@ toc_sticky: true
 
 ```java
 Box<Apple> appleBox = new Box<Apple>(); 
-Box<Grape> appleBox = new Box<Grape>(); //에러
 ```
 
 * 매개변수 타입이 상속관계에 있을 때는 어떨까?
@@ -32,7 +31,7 @@ Box<Fruit> appleBox = new Box<Apple>(); // 에러
 ```
 
 * Apple이 Fruit을 상속받고 있다고 할 때, 흔히 다형성에 의해 동작할 것처럼 느껴지지만, 에러가 발생한다.
-* Fruit과 Apple이 상속관계인 것이지 Box<Fruit>과 Box<Apple>은 아무 관련이 없다.
+* Fruit과 Apple이 상속관계인 것이지 Box< Fruit >과 Box< Apple >은 아무 관련이 없다.
 * 우리가 익숙한 다형성을 통한 객체 생성은 아래와 같을 것이다.
 
 ```java
@@ -69,7 +68,7 @@ public class Box<T extends Car> {
 }
 ```
 
-* 제네릭 타입을 <T extends Car>로 작성하면서, 여전히 한 종류의 타입만을 담을 수 있지만, Car 클래스의 자손들만 담을 수 있다는 제한이 더 추가된 것이다.
+* 제네릭 타입을 < T extends Car >로 작성하면서, 여전히 한 종류의 타입만을 담을 수 있지만, Car 클래스의 자손들만 담을 수 있다는 제한이 더 추가된 것이다.
 * 추가적으로 add메소드의 매개변수 타입 T 역시 Car와 그 자손 타입이 될 수 있으므로, 여러 차를 담을 수 있는 상자가 가능하게 된다.
 
 ```java
