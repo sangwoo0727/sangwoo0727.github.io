@@ -1,10 +1,10 @@
 ---
 title: "2019 회고 및 2020 다짐"
 categories:
-  - Daily
+  - Retrospective
 read_time: false
 tags:
-  - Daily
+  - Retrospective
 comments:
   - true
 toc: true
